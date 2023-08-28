@@ -141,15 +141,15 @@ a:hover, a:hover > tt{
 }
 
 #layout-menu a.current:link, #layout-menu a.current:visited {
-	color: #586069;
+	color: #5783BC;
 	font-weight: 600;
 }
 #layout-menu a:link, #layout-menu a:visited, #layout-menu a:hover {
-	color: #0366d6;
+	color: #13294B;
 	text-decoration: none;
 }
 #layout-menu a:hover {
-	color: #ea4aaa;
+	color: #E56E15;
 	text-decoration: none;
 }
 
