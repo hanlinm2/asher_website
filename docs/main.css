@@ -549,8 +549,8 @@ div#layout-menu-container .closebtn:hover {
 /* Width to collapse sidebar */
 @media screen and (max-width: 1200px) {
 	div#header-text-container {
-		visibility: hidden;
-		width: 0;
+		/* visibility: hidden; */
+		/* width: 0; */
 	}
 
 	div#layout-menu-container{
