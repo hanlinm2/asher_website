@@ -27,7 +27,8 @@ div#header {
 	background: #13294B;
 	z-index: 1;
 	position: fixed;
-	display:inline-block;
+	display:flex;
+	justify-content: space-between;
 }
 
 div#header-icon-text-container {
@@ -80,7 +81,7 @@ div#layout-menu {
 	padding-top: 0px;
 	padding-bottom: 25px;
 	height: calc(100% - 97px);
-	min-width: 10px;
+	min-width: 280px;
 	position: fixed;
 	overflow: scroll;
 	background: #f6f8fa;
@@ -518,7 +519,7 @@ div#text-container p{
 
 
 div#main{
-	margin: auto;
+	margin: auto 0;
 	height:45px;
 	display:inline-block;
 	vertical-align: middle;
@@ -572,7 +573,8 @@ div#layout-menu-container .closebtn:hover {
 		width: 100%;
 	}
 	div#main{
-		padding-left: calc(100vw - 150px);
+		padding-left: 0;
+		/* padding-left: calc(100vw - 150px); */
 	}
 
 	.openbtn {
