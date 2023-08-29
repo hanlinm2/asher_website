@@ -47,11 +47,11 @@ right to perform left or right clicks.
 === Asher Mai, Pauline Lu
 === CS 445: Computational Photography
 === /[https://ece.illinois.edu/academics/ugrad/scholarships-and-awards/awards/bit Donald L. Bitzer and H. Gene Slottow Creativity Award]/
-What if you want to take notes digitally, but you don't have the money to buy an expensive set of tablet and stylus?
+What if you want to draw or take notes digitally, but you don't have the money to buy an expensive set of tablet and stylus?
 We designed a system that allows you to use any pen to draw on any surface using just your laptop's webcam.
-A piece of paper with green tapes on the four corners is used to calibrate and account for the angle of the webcam
-with relations to the surface in front of it. We use color thresholding to recognize the
-tip of the pen and its location on the surface, and translate it to locations on screen using homography transform.
+First we do calibration to account for the angle of the webcam with relations to the surface in front of it using a piece 
+of paper with green tapes on the four corners. We then use color thresholding to recognize the
+green tip of the pen and its location on the surface, and translate it to location on screen using homography transform.
 
 [https://gitlab.engr.illinois.edu/hanlinm2/digital-notes Code] \/ [https://www.youtube.com/watch?v=yeBxkBcJyF4 Youtube] \/ [./assets/CS445_Final_Project_Report.pdf Final Report]
 ~~~
