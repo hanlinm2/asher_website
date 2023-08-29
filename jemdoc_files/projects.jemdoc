@@ -26,7 +26,7 @@ Rivian Adventure is a retro game that incorporates many aspects of the company:
 === ECE 445: Senior Design
 We developed a device that allows a user with inability to move parts of their body to control
 a mouse cursor using their head. We use an accelerometer and gyroscope to capture the movement
-of the head, and translate it into mouse movement data that is sent by Bluetooth to the user'S
+of the head, and translate it into mouse movement data that is sent by Bluetooth to the user's
 desktop / laptop device. To left click or right click, simply hold the cursor in the place you
 want to click, wait for the mouse to change into a crosshair shape, then tilt your head left or
 right to perform left or right clicks.
