@@ -16,7 +16,9 @@ Rivian Adventure is a retro game that incorporates many aspects of the company:
 - Drive through charging stations and don't worry about running out of battery
 - When the truck breaks down, use Rivian Service Centers and you'll be back on the road in no time
 
-[https://github.com/advaithbala/uirphack_2023 Code] \/ [https://youtu.be/4WL72N0womw Youtube] \/ [https://researchpark.illinois.edu/article/first-research-park-hackathon-paid-homage-to-retro-games/ Article]
+[https://github.com/advaithbala/uirphack_2023 Code] \/ 
+[https://youtu.be/4WL72N0womw Youtube] \/ 
+[https://researchpark.illinois.edu/article/first-research-park-hackathon-paid-homage-to-retro-games/ Article]
 ~~~
 
 ~~~
@@ -31,16 +33,27 @@ desktop / laptop device. To left click or right click, simply hold the cursor in
 want to click, wait for the mouse to change into a crosshair shape, then tilt your head left or
 right to perform left or right clicks.
 
-[https://gitlab.com/ece445-team44/ece445_project Code] \/ [https://www.youtube.com/watch?v=HxvXf0QYEtk Youtube] \/ [./assets/445_Final_Report.pdf Final Report] \/ [./assets/Team44_FinalPPT.pdf Presentation]
+[https://gitlab.com/ece445-team44/ece445_project Code] \/ 
+[https://www.youtube.com/watch?v=HxvXf0QYEtk Youtube] \/ 
+[./assets/ECE445_Final_Report.pdf Final Report] \/ 
+[./assets/Team44_FinalPPT.pdf Presentation]
 ~~~
 
 
-== 2019
+== 2022
 ~~~
-{}{img_left}{./images/pic02.png}{}{280px}{}{}
-== Terraformed a small moon
-=== Lorem ipsum dolor sit amet nullam id egestas urna aliquam
-Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.
+{}{img_left}{./images/digital_notes.jpg}{}{280px}{}{}
+== Digital Notes With Any Pen on Any Surface
+=== Asher Mai, Pauline Lu
+=== CS 445: Computational Photography
+=== /[https://ece.illinois.edu/academics/ugrad/scholarships-and-awards/awards/bit Donald L. Bitzer and H. Gene Slottow Creativity Award]/
+What if you want to take notes digitally, but you don't have the money to buy an expensive set of tablet and stylus?
+We designed a system that allows you to use any pen to draw on any surface using just your laptop's webcam.
+A piece of paper with green tapes on the four corners is used to calibrate and account for the angle of the webcam
+with relations to the surface in front of it. We use color thresholding to recognize the
+tip of the pen and its location on the surface, and translate it to locations on screen using homography transform.
+
+[https://gitlab.engr.illinois.edu/hanlinm2/digital-notes Code] \/ [https://www.youtube.com/watch?v=yeBxkBcJyF4 Youtube] \/ [./assets/CS445_Final_Project_Report.pdf Final Report]
 ~~~
 
 ~~~
