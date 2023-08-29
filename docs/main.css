@@ -542,7 +542,8 @@ div#layout-menu-container .closebtn {
 }
 
 div#layout-menu-container .closebtn:hover {
-	background: #fdaeb7;
+	/* background: #fdaeb7; */
+	background: none;
 	color: #cb2431;
 }
 
@@ -603,12 +604,13 @@ div#layout-menu-container .closebtn:hover {
 	  padding-bottom: 5.3px;
 	  line-height: 1;
 	  margin-right: -25px;
-	  background: #ffdce0;
+	  background: none;
 	  color: #959da5;
 	}
 
 	div#layout-menu-container .closebtn:hover {
-		background: #fdaeb7;
+		/* background: #fdaeb7; */
+		background: none;
 		color: #cb2431;
 	}
 }
