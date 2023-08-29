@@ -1,7 +1,8 @@
 # asher_website
 Asher's personal website
 
-To Compile, go to `jemdoc_files`
+To Compile jemdoc_files:
 ```
-python ../jemdoc -c mysite.conf -o ../docs/  *.jemdoc
+cd jemdoc_files
+bash build_jemdoc.sh
 ```
