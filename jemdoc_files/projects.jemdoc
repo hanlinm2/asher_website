@@ -1,13 +1,37 @@
 # jemdoc: menu{MENU}{projects.html}
 = Projects
-This page contains all my projects.
+This page contains all my non-publication projects, including course 
+projects, hackathons, personal projects and undergrad research.
 
-== 2020
+== 2023
 ~~~
-{}{img_left}{./images/pic01.png}{}{280px}{}{}
-== Possibly broke spacetime
-=== Lorem ipsum dolor sit amet nullam id egestas urna aliquam
-Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.
+{}{img_left}{./images/rivian.gif}{}{280px}{}{}
+== Rivian Adventure Retro Game
+=== Asher Mai, Advaith Bala, David Chen
+=== [https://github.com/uirphack/2023 2023 UIUC Research Park Hackathon]\n
+=== /1st place and Best Company Incorporation Award/
+Rivian Adventure is a retro game that incorporates many aspects of the company:
+- Go offroad to activate camping mode and take advantage of Rivian's adventure focused trucks
+- Go turbo mode and experience the fast acceleration of the R1T
+- Drive through charging stations and don't worry about running out of battery
+- When the truck breaks down, use Rivian Service Centers and you'll be back on the road in no time
+
+[https://github.com/advaithbala/uirphack_2023 Code] \/ [https://youtu.be/4WL72N0womw Youtube] \/ [https://researchpark.illinois.edu/article/first-research-park-hackathon-paid-homage-to-retro-games/ Article]
+~~~
+
+~~~
+{}{img_left}{./images/head_controlled_mouse.gif}{}{280px}{}{}
+== Head-Controlled Mouse
+=== Amanda Favila, Asher Mai, Lauren Wilcox
+=== ECE 445: Senior Design
+We developed a device that allows a user with inability to move parts of their body to control
+a mouse cursor using their head. We use an accelerometer and gyroscope to capture the movement
+of the head, and translate it into mouse movement data that is sent by Bluetooth to the user'S
+desktop / laptop device. To left click or right click, simply hold the cursor in the place you
+want to click, wait for the mouse to change into a crosshair shape, then tilt your head left or
+right to perform left or right clicks.
+
+[https://gitlab.com/ece445-team44/ece445_project Code] \/ [https://www.youtube.com/watch?v=HxvXf0QYEtk Youtube] \/ [./assets/445_Final_Report.pdf Final Report] \/ [./assets/Team44_FinalPPT.pdf Presentation]
 ~~~
 
 
