@@ -728,3 +728,23 @@ div#member p{
     max-width: 100%;
   }
 }
+
+/* Width to make title shorter*/
+@media screen and (max-width: 362px) {
+	div#header-text-container {
+		width: 145px;
+		margin: 0;
+	}
+	div#header-text-container a{
+		visibility: hidden;
+		position: relative;
+	}
+
+	div#header-text-container a:after {
+		visibility: visible;
+		position: absolute;
+		top: 0;
+		left: 0;
+		content: "Asher Mai";
+	}
+}

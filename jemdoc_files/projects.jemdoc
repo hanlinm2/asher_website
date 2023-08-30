@@ -55,3 +55,14 @@ green tip of the pen and its location on the surface, and translate it to locati
 
 [https://gitlab.engr.illinois.edu/hanlinm2/digital-notes Code] \/ [https://www.youtube.com/watch?v=yeBxkBcJyF4 Youtube] \/ [./assets/CS445_Final_Project_Report.pdf Final Report]
 ~~~
+
+
+~~~
+{}{img_left}{./images/gesture.png}{}{280px}{}{}
+== Hand Tracking and Gesture Recognition for Automated VFX
+=== Michelle Zhang, Asher Mai, Noah Franceschini, Aditi Tiwari
+=== CS 543/ECE 549: Computer Vision
+
+
+[https://github.com/mz32-personal/ECE549-Final-Project Code] \/ [https://www.youtube.com/watch?v=c_B_kCH9-h4 Youtube] \/ [./assets/ECE549_Final_Report.pdf Final Report]
+~~~
