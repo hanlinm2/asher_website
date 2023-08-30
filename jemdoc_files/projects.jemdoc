@@ -62,7 +62,11 @@ green tip of the pen and its location on the surface, and translate it to locati
 == Hand Tracking and Gesture Recognition for Automated VFX
 === Michelle Zhang, Asher Mai, Noah Franceschini, Aditi Tiwari
 === CS 543/ECE 549: Computer Vision
-
+We compared two different methods for the gesture detection problem: classical method with convex hull, and learning based
+method with MobileNetV3. We applied different visual effects based on the gestures detected:
+- One finger: A flame will show up on your finger and tilt based on hand movement determined by optical flow
+- Two fingers: A flame will show up between the two fingers. Up and down motion will change the color of the flame
+- Three fingers: Toggle on/off a cartoon filter.
 
 [https://github.com/mz32-personal/ECE549-Final-Project Code] \/ [https://www.youtube.com/watch?v=c_B_kCH9-h4 Youtube] \/ [./assets/ECE549_Final_Report.pdf Final Report]
 ~~~
