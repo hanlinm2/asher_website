@@ -70,3 +70,15 @@ method with MobileNetV3. We applied different visual effects based on the gestur
 
 [https://github.com/mz32-personal/ECE549-Final-Project Code] \/ [https://www.youtube.com/watch?v=c_B_kCH9-h4 Youtube] \/ [./assets/ECE549_Final_Report.pdf Final Report]
 ~~~
+
+~~~
+{}{img_left}{./images/yoyo.gif}{}{280px}{}{}
+== Automatic Visual Effect on Yoyo Trick Videos 
+=== Asher Mai
+=== Personal Project
+I taught myself how to do cool yoyo tricks. I taught myself how to program in Python. And I combined these
+two skills to add automatic visual effects to my yoyo videos. I used OpenCV CSRT object tracker to track
+the position of the yoyo in each frame, and then add a trace of the path that the yoyo takes.
+
+[https://github.com/hanlinm2/yoyo_tracking_vfx Code]
+~~~

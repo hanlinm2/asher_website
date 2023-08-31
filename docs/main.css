@@ -81,7 +81,7 @@ div#layout-menu {
 	padding-top: 0px;
 	padding-bottom: 25px;
 	height: calc(100% - 97px);
-	min-width: 280px;
+	min-width: 300px;
 	position: fixed;
 	overflow: scroll;
 	background: #f6f8fa;
@@ -166,7 +166,7 @@ div.menu-category {
 }
 
 div.menu-item {
-	font-size: 16px;
+	font-size: 20px;
 	padding-left: 25px;
 	padding-right: 25px;
 }
@@ -432,7 +432,7 @@ img {
 	padding: 0px;
 	margin-right: 20px;
 	margin-bottom: 10px;
-	border-radius: 10px;
+	border-radius: 15px;
 }
 
 
