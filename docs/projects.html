@@ -19,6 +19,7 @@ MathJax.Hub.Config({
 });
 </script>
 <!-- End MathJax -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 </head>
 <body>
 <div id="main-container">
@@ -41,11 +42,10 @@ MathJax.Hub.Config({
 <div id="layout-menu-container">
 <div id="layout-menu">
 <div class="menu-item"><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">◀︎</a></div>
-<div class="menu-item"><a href="index.html">Profile</a></div>
+<div class="menu-item"><a href="profile.html">Profile</a></div>
 <div class="menu-item"><a href="projects.html" class="current">Projects</a></div>
 <div class="menu-item"><a href="assets/Asher_Resume.pdf" target="blank">Resume</a></div>
 <div class="menu-item"><a href="awards.html">Awards</a></div>
-<div class="menu-item"><a href="contact.html">Contact</a></div>
 </div> <!-- <div id="layout-menu"> -->
 </div> <!-- <div id="layout-menu-container"> -->
 <div id="layout-content-container">
@@ -57,7 +57,7 @@ projects, hackathons, personal projects and undergrad research.</div>
 </div>
 <h2>2023</h2>
 <div id="text-img-container"><div id="img-container">
-<img src="./images/rivian.gif" alt="" width="280px" /></div>
+<img src="./images/rivian.jpg" alt="" width="280px" id="rivian" /></div>
 <div id="text-container"><h2>Rivian Adventure Retro Game</h2>
 <h3>Asher Mai, Advaith Bala, David Chen</h3>
 <h3><a href="https://github.com/uirphack/2023" target=&ldquo;blank&rdquo;>2023 UIUC Research Park Hackathon</a><br /></h3>
@@ -77,6 +77,18 @@ projects, hackathons, personal projects and undergrad research.</div>
 <a href="https://youtu.be/4WL72N0womw" target=&ldquo;blank&rdquo;>Youtube</a> / 
 <a href="https://researchpark.illinois.edu/article/first-research-park-hackathon-paid-homage-to-retro-games/" target=&ldquo;blank&rdquo;>Article</a></p>
 </div></div>
+<script>
+    $(function() {
+        $("#rivian").hover(
+            function() {
+                $(this).attr("src", "./images/rivian.gif");
+            },
+            function() {
+                $(this).attr("src", "./images/rivian.jpg");
+            }                         
+        );                  
+    });
+</script>
 <div id="text-img-container"><div id="img-container">
 <img src="./images/head_controlled_mouse.gif" alt="" width="280px" /></div>
 <div id="text-container"><h2>Head-Controlled Mouse</h2>
@@ -138,7 +150,7 @@ the position of the yoyo in each frame, and then add a trace of the path that th
 <div id="footer-container">
 <div id="footer">
 <div id="footer-text">
-Last edited  on August 30<sup>th</sup> 2023  05:33PM (Time Zone: CDT). </br>
+Last edited  on September 1<sup>st</sup> 2023  12:40AM (Time Zone: CDT). </br>
 Powered by <a href="https://github.com/szl2/jemdoc-new-design" target="blank">jemdoc + new design</a>.
 </div> <!-- <div id="footer-text"> -->
 </div> <!-- <div id="footer"> -->

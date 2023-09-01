@@ -1519,7 +1519,7 @@ def procfile(f):
 
         elif len(g) >= 4 and g[1] == 'img_left':
           # handles
-          # {}{img_left}{source}{alttext}{width}{height}{linktarget}.
+          # {}{img_left}{source}{alttext}{width}{height}{linktarget}{id}.
           g += ['']*(7 - len(g))
 
           if g[4].isdigit():
@@ -1537,6 +1537,8 @@ def procfile(f):
             out(f.outf, ' width="%s"' % g[4])
           if g[5]:
             out(f.outf, ' height="%s"' % g[5])
+          if len(g) > 7 and g[7]:
+            out(f.outf, ' id="%s"' % g[7])
           out(f.outf, ' />')
           if g[6]:
             out(f.outf, '</a>')
