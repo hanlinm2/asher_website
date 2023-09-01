@@ -445,6 +445,7 @@ table {
 #news_table table, tr, td, th{
 	border: none !important;
 	text-align: left !important;
+	border-bottom: 1px solid #d1d5da !important;
 }
 
 #news_table td.c1 { 
