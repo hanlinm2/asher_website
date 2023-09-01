@@ -7,7 +7,7 @@ projects, hackathons, personal projects and undergrad research.
 
 
 ~~~
-{}{img_left}{./images/rivian.jpg}{}{280px}{}{}{rivian}
+{}{img_left}{./images/rivian.gif}{}{280px}{}{}{rivian}
 == Rivian Adventure Retro Game
 === Asher Mai, Advaith Bala, David Chen
 === [https://github.com/uirphack/2023 2023 UIUC Research Park Hackathon]\n
@@ -23,21 +23,6 @@ Rivian Adventure is a retro game that incorporates many aspects of the company:
 [https://researchpark.illinois.edu/article/first-research-park-hackathon-paid-homage-to-retro-games/ Article]
 ~~~
 
-~~~
-{}{raw}
-<script>
-    $(function() {
-        $("#rivian").hover(
-            function() {
-                $(this).attr("src", "./images/rivian.gif");
-            },
-            function() {
-                $(this).attr("src", "./images/rivian.jpg");
-            }                         
-        );                  
-    });
-</script>
-~~~
 
 ~~~
 {}{img_left}{./images/head_controlled_mouse.gif}{}{280px}{}{}
@@ -90,7 +75,7 @@ method with MobileNetV3. We applied different visual effects based on the gestur
 ~~~
 
 ~~~
-{}{img_left}{./images/yoyo.gif}{}{280px}{}{}
+{}{img_left}{./images/yoyo.gif}{}{280px}{}{}{yoyo}
 == Automatic Visual Effect on Yoyo Trick Videos 
 === Asher Mai
 === Personal Project
