@@ -91,7 +91,7 @@ the position of the yoyo in each frame, and then add a trace of the path that th
 ~~~
 
 ~~~
-{}{img_left}{./images/Gem.gif}{}{280px}{}{}{yoyo}
+{}{img_left}{./images/Gem.gif}{}{280px}{}{}{}
 == GEM Vehicle Parking Navigation with Pipeline Design
 === Yan Miao, Arjun Ray, John Pohovey, Asher Mai
 === [https://publish.illinois.edu/safe-autonomy/ ECE 484: Principles of Safe Autonomy]
@@ -103,5 +103,17 @@ Dynamic Time Warping (DTW).
 
 [https://www.youtube.com/watch?list=PLcA4s4DKSOF12iLaJmmJ_2ZoCD6aFd9Ct&v=-f7Qd7TnaDU Youtube] \/
 [https://docs.google.com/presentation/d/1qyt7nnVl4wSo1H0AG19ofFyk_EndlIzEOxcE05svHTk/edit?usp=sharing Presentation]
+~~~
+
+~~~
+{}{img_left}{./images/quantization.jpeg}{}{280px}{}{}{}
+== Convolutional Neural Network Pruning and Quantization for FPGA
+=== Chuxuan Hu, Hanlin “Asher” Mai, Jiaru Zou, Joseph Rejive, William Eustis, Volodymyr Kindratenko
+=== Undergrad Research
+We trained VGG16 image classification CNN using PyTorch and CIFAR10 dataset.
+We were able to reduce the model size by more than 4x using pruning and PyTorch’s Post Training Quantization framework, 
+and collaborated with FPGA team to integrate quantized 8 bit convolutional kernels for image classification on hardware.
+
+[./assets/quantization.pdf Poster]
 ~~~
 
