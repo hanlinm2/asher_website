@@ -25,7 +25,7 @@ Rivian Adventure is a retro game that incorporates many aspects of the company:
 
 
 ~~~
-{}{img_left}{./images/head_controlled_mouse.gif}{}{280px}{}{}
+{}{img_left}{./images/head_controlled_mouse.m4v}{}{280px}{}{}
 == Head-Controlled Mouse
 === Amanda Favila, Asher Mai, Lauren Wilcox
 === ECE 445: Senior Design
@@ -56,7 +56,9 @@ First we do calibration to account for the angle of the webcam with relations to
 of paper with green tapes on the four corners. We then use color thresholding to recognize the
 green tip of the pen and its location on the surface, and translate it to location on screen using homography transform.
 
-[https://gitlab.engr.illinois.edu/hanlinm2/digital-notes Code] \/ [https://www.youtube.com/watch?v=yeBxkBcJyF4 Youtube] \/ [./assets/CS445_Final_Project_Report.pdf Final Report]
+[https://gitlab.engr.illinois.edu/hanlinm2/digital-notes Code] \/ 
+[https://www.youtube.com/watch?v=yeBxkBcJyF4 Youtube] \/ 
+[./assets/CS445_Final_Project_Report.pdf Final Report]
 ~~~
 
 
@@ -71,12 +73,26 @@ method with MobileNetV3. We applied different visual effects based on the gestur
 - Two fingers: A flame will show up between the two fingers. Up and down motion will change the color of the flame
 - Three fingers: Toggle on/off a cartoon filter.
 
-[https://github.com/mz32-personal/ECE549-Final-Project Code] \/ [https://www.youtube.com/watch?v=c_B_kCH9-h4 Youtube] \/ [./assets/ECE549_Final_Report.pdf Final Report]
+[https://github.com/mz32-personal/ECE549-Final-Project Code] \/ 
+[https://www.youtube.com/watch?v=c_B_kCH9-h4 Youtube] \/ 
+[./assets/ECE549_Final_Report.pdf Final Report]
 ~~~
 
 ~~~
 {}{img_left}{./images/yoyo.gif}{}{280px}{}{}{yoyo}
 == Automatic Visual Effect on Yoyo Trick Videos 
+=== Asher Mai
+=== Personal Project
+I taught myself how to do cool yoyo tricks. I taught myself how to program in Python. And I combined these
+two skills to add automatic visual effects to my yoyo videos. I used OpenCV CSRT object tracker to track
+the position of the yoyo in each frame, and then add a trace of the path that the yoyo takes.
+
+[https://github.com/hanlinm2/yoyo_tracking_vfx Code]
+~~~
+
+~~~
+{}{img_left}{./images/Avoid_Obstacle_from_Left.mov}{}{280px}{}{}{yoyo}
+== GEM Vehicle Parking Navigation with Pipeline Design
 === Asher Mai
 === Personal Project
 I taught myself how to do cool yoyo tricks. I taught myself how to program in Python. And I combined these
