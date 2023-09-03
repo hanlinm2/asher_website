@@ -25,7 +25,7 @@ Rivian Adventure is a retro game that incorporates many aspects of the company:
 
 
 ~~~
-{}{img_left}{./images/head_controlled_mouse.m4v}{}{280px}{}{}
+{}{img_left}{./images/head_controlled_mouse.gif}{}{280px}{}{}
 == Head-Controlled Mouse
 === Amanda Favila, Asher Mai, Lauren Wilcox
 === ECE 445: Senior Design
@@ -91,13 +91,17 @@ the position of the yoyo in each frame, and then add a trace of the path that th
 ~~~
 
 ~~~
-{}{img_left}{./images/Avoid_Obstacle_from_Left.mov}{}{280px}{}{}{yoyo}
+{}{img_left}{./images/Gem.gif}{}{280px}{}{}{yoyo}
 == GEM Vehicle Parking Navigation with Pipeline Design
-=== Asher Mai
-=== Personal Project
-I taught myself how to do cool yoyo tricks. I taught myself how to program in Python. And I combined these
-two skills to add automatic visual effects to my yoyo videos. I used OpenCV CSRT object tracker to track
-the position of the yoyo in each frame, and then add a trace of the path that the yoyo takes.
+=== Yan Miao, Arjun Ray, John Pohovey, Asher Mai
+=== [https://publish.illinois.edu/safe-autonomy/ ECE 484: Principles of Safe Autonomy]
+We designed a pipeline that enables autonomous parking lot navigation on the Gem Vehicle platform.
+The pipeline includes perception with LiDAR and YOLOv5, path planning with Hybrid A-star, and control using PID.
+We tested our system with different obstacles in the parking lot, and evaluated the parking success using 
+Intersection Over Union (IOU) metric. We tested how well the PID control follows the planned trajectory using
+Dynamic Time Warping (DTW).
 
-[https://github.com/hanlinm2/yoyo_tracking_vfx Code]
+[https://www.youtube.com/watch?list=PLcA4s4DKSOF12iLaJmmJ_2ZoCD6aFd9Ct&v=-f7Qd7TnaDU Youtube] \/
+[https://docs.google.com/presentation/d/1qyt7nnVl4wSo1H0AG19ofFyk_EndlIzEOxcE05svHTk/edit?usp=sharing Presentation]
 ~~~
+
