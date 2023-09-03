@@ -85,18 +85,3 @@ the position of the yoyo in each frame, and then add a trace of the path that th
 
 [https://github.com/hanlinm2/yoyo_tracking_vfx Code]
 ~~~
-
-~~~
-{}{raw}
-<style>
-    div#layout-content-container {
-        background-image: linear-gradient( #C3C4F2, #FCA4BE)!important ;
-    }
-
-    div#text-img-container {
-        background-color: rgba(255,255,255,0.5);
-        border-radius: 20px;
-        padding:20px;
-    }
-</style>
-~~~
