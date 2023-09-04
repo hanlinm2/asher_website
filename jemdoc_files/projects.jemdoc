@@ -87,7 +87,8 @@ I taught myself how to do cool yoyo tricks. I taught myself how to program in Py
 two skills to add automatic visual effects to my yoyo videos. I used OpenCV CSRT object tracker to track
 the position of the yoyo in each frame, and then add a trace of the path that the yoyo takes.
 
-[https://github.com/hanlinm2/yoyo_tracking_vfx Code]
+[https://github.com/hanlinm2/yoyo_tracking_vfx Code] \/
+[https://www.linkedin.com/posts/ashermai_combing-my-python-and-yoyo-skills-i-was-activity-6930984293078888448-nuUo?utm_source=share&utm_medium=member_desktop More Video]
 ~~~
 
 ~~~
@@ -117,3 +118,23 @@ and collaborated with FPGA team to integrate quantized 8 bit convolutional kerne
 [./assets/quantization.pdf Poster]
 ~~~
 
+== 2021
+
+~~~
+{}{img_left}{./images/crossy.gif}{}{280px}{}{}{}
+== Crossy Road Game on FPGA
+=== Asher Mai, Amanda Favila
+=== ECE 385: Digital Systems Laboratory
+We recreated the popular iOS game Crossy Road on FPGA using SystemVerilog HDL (Hardware Description Language).
+We designed our own game graphics down to pixel level and output VGA signal to display a 60 Hz, 480 by 640 pixel game.
+One of the challenges was to randomly generate and efficiently store the essential game information such as all the car and tree positions. 
+After brainstorming, we came up with the idea of using linear-feedback shift registers to solve this challenge.
+
+[https://www.linkedin.com/posts/ashermai_after-a-month-of-workamanda-favilaand-activity-6797002446129524736-JILB?utm_source=share&utm_medium=member_desktop Full Video]
+~~~
+
+~~~
+"Thanks for writing to me and showing me this. It's nice to hear that you enjoy Crossy!
+Your project looks awesome, especially on a big screen!
+All the best for your course and future projects." --- [https://andrewsum.com Andrew Sum], Creator of Crossy Road
+~~~

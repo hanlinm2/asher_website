@@ -350,10 +350,14 @@ div.blockcontent {
 }
 
 div.infoblock > div.blockcontent {
-	background: #fffbdd;
-	border: 1px solid #f9c513;
+	background: #ffe3ee;
+	border: 1px solid #cf025b;
 	border-radius: 9px;
-	color: #f9c513;
+	color: #cf025b;
+}
+
+div.infoblock > div.blockcontent p {
+	font-size: 20px;
 }
 
 div.blockcontent p + ul, div.blockcontent p + ol {
