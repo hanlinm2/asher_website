@@ -139,6 +139,31 @@ Your project looks awesome, especially on a big screen!
 All the best for your course and future projects." --- [https://andrewsum.com Andrew Sum], Creator of Crossy Road
 ~~~
 
+== 2020
+
+~~~
+{}{img_left}{./images/ball.gif}{}{280px}{}{}{}
+== Floating Glass Sphere
+=== Asher Mai
+=== Personal Project
+I was experimenting with 3D animation, and I had this idea of combining
+frosted glass and changing shape keys that animates the shape of both 
+the inner and outer sphere.\n
+Modeled and animated with [https://www.blender.org Blender].
+~~~
+
+~~~
+{}{img_left}{./images/computer.JPG}{}{280px}{}{}{}
+== The Future of Computing
+=== Asher Mai
+=== Personal Project
+I had an imagination for what computers might look like in the future. You can have
+windows floating around you, and you can drag them around. You can have multiple screens but 
+without any monitors. This imagination has been brought to reality with the recent release
+of Apple Vision Pro.\n
+Modeled and animated with [https://www.blender.org Blender].
+~~~
+
 ~~~
 {}{raw}
 <style>
