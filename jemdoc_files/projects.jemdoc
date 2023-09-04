@@ -140,16 +140,17 @@ All the best for your course and future projects." --- [https://andrewsum.com An
 ~~~
 
 ~~~
- {}{raw}
- <style>
-     div#layout-content-container {
-         background-color: #F5F5F7 !important ;
-     }
+{}{raw}
+<style>
+    div#layout-content-container {
+        background-color: #F5F5F7 !important ;
+    }
 
-     div#text-img-container {
-         background-color: #FFFFFF;
-         border-radius: 20px;
-         padding:20px;
-     }
- </style>
- ~~~
+    div#text-img-container {
+        background-color: #FFFFFF;
+        border-radius: 20px;
+        padding:20px;
+    }
+</style>
+~~~
+
