@@ -138,3 +138,18 @@ After brainstorming, we came up with the idea of using linear-feedback shift reg
 Your project looks awesome, especially on a big screen!
 All the best for your course and future projects." --- [https://andrewsum.com Andrew Sum], Creator of Crossy Road
 ~~~
+
+~~~
+ {}{raw}
+ <style>
+     div#layout-content-container {
+         background-color: #F5F5F7 !important ;
+     }
+
+     div#text-img-container {
+         background-color: #FFFFFF;
+         border-radius: 20px;
+         padding:20px;
+     }
+ </style>
+ ~~~
