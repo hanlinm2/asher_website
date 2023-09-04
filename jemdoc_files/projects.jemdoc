@@ -121,7 +121,7 @@ and collaborated with FPGA team to integrate quantized 8 bit convolutional kerne
 == 2021
 
 ~~~
-{}{img_left}{./images/crossy.gif}{}{280px}{}{}{}
+{}{img_left}{./images/crossy.gif}{}{280px}{189.75px}{}{}
 == Crossy Road Game on FPGA
 === Asher Mai, Amanda Favila
 === ECE 385: Digital Systems Laboratory
