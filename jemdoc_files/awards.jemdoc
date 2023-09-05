@@ -42,7 +42,7 @@
 == 2021
 ~~~
 {}{img_left}{./images/synchrony_hack.jpg}{}{280px}{}{}{}
-== Synchrony Innovation Hackathon 1st place
+== Synchrony Innovation Summit Hackathon 1st place
 === Asher Mai, Joe Paoletti, Tim Vitkin, Sumedh Vemuganti
 ~~~
 
@@ -64,4 +64,19 @@
 {}{img_left}{./images/ap_distinction.jpg}{}{280px}{}{}{}
 == AP® Scholar with Distinction Award
 === Hanlin Mai
+~~~
+
+~~~
+{}{raw}
+<style>
+    div#layout-content-container {
+        background-color: #F5F5F7 !important ;
+    }
+
+    div#text-img-container {
+        background-color: #FFFFFF;
+        border-radius: 20px;
+        padding:20px;
+    }
+</style>
 ~~~

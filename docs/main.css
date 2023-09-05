@@ -350,10 +350,10 @@ div.blockcontent {
 }
 
 div.infoblock > div.blockcontent {
-	background: #ffe3ee;
-	border: 1px solid #cf025b;
+	background-color: rgba(224,98,68, 0.3);;
+	border: 1px solid #B74D04;
 	border-radius: 9px;
-	color: #cf025b;
+	color: #B74D04;
 }
 
 div.infoblock > div.blockcontent p {
