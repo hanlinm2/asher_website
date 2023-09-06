@@ -35,14 +35,13 @@ MathJax.Hub.Config({
 </div>
 </div>
 <div id="main">
-<button class="openbtn" onclick="openNav()">☰</button>
+<button id = "openButton" class="openbtn" onclick="openNav()">☰</button>
 </div>
 </div>
 </div>
 <div id="layout">
 <div id="layout-menu-container">
 <div id="layout-menu">
-<div class="menu-item"><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">◀︎</a></div>
 <div class="menu-item"><a href="profile.html">Profile</a></div>
 <div class="menu-item"><a href="projects.html" class="current">Projects</a></div>
 <div class="menu-item"><a href="assets/Asher_Resume.pdf" target="blank">Resume</a></div>
@@ -218,7 +217,7 @@ Modeled and animated with <a href="https://www.blender.org" target=&ldquo;blank&
 <div id="footer-container">
 <div id="footer">
 <div id="footer-text">
-Last edited  on September 4<sup>th</sup> 2023  09:14PM (Time Zone: CDT). </br>
+Last edited  on September 6<sup>th</sup> 2023  12:30PM (Time Zone: CDT). </br>
 Powered by <a href="https://github.com/szl2/jemdoc-new-design" target="blank">jemdoc + new design</a>.
 </div> <!-- <div id="footer-text"> -->
 </div> <!-- <div id="footer"> -->
@@ -229,6 +228,11 @@ Powered by <a href="https://github.com/szl2/jemdoc-new-design" target="blank">je
 <script>
 function openNav() {
     if (window.innerWidth <= 1200) {
+        document.getElementById("openButton").innerHTML = "×";
+        if (document.getElementById("layout-menu").style.width == "140px") {
+            closeNav();
+            return;
+        }
         document.getElementById("layout-menu").style.width = "140px";
         document.getElementById("layout-content-container").style.marginLeft = "140.8px";
         // document.getElementById("layout-content-container").style.position = "fixed";
@@ -239,10 +243,11 @@ function closeNav() {
         document.getElementById("layout-menu").style.width = "0";
         document.getElementById("layout-content-container").style.position = "static";
         document.getElementById("layout-content-container").style.marginLeft = "0px";
-        setInterval(
-            function(){ location.reload() },
-            500
-        );
+        document.getElementById("openButton").innerHTML = "☰";
+        // setInterval(
+        //     function(){ location.reload() },
+        //     500
+        // );
     }
 }
 </script>
