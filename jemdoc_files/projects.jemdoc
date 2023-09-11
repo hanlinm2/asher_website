@@ -8,15 +8,15 @@ projects, hackathons, personal projects and undergrad research.
 ~~~
 {}{img_left}{./images/crowd_nav.gif}{}{280px}{}{}{}
 == Crowd Navigation with Occlusion-Aware Inference Using People as Sensors
-=== Asher Mai, Ye-Ji Mun, Prof Katie Driggs-Campbell
+=== Asher Mai, [https://yejimun.github.io Ye-Ji Mun], Prof Katie Driggs-Campbell
 === Undergrad Research
 By training a variational auto-encoder (VAE) to generate occupancy grid maps (OGM) that
-try to "see" occluded pedestrians given sensor OGM data that don't "see" occluded pedestrians, 
-we effectively use people as sensors in crowd 
+try to estimate occluded pedestrians' locations given sensor OGM data that don't have these occluded pedestrians, 
+we effectively use people's interaction for occlusion inference in crowd 
 navigation tasks. My contribution includes,
 . Using blob detection to evaluate accuracy of generated OGM compared to ground truth OGM
 and assessing the network's ability to see pedestrians that the sensor doesn't see. 
-. Integrating baseline planner such as Astar search on the 
+. Integrating baseline Astar planner with the occlusion inference module on the 
 [https://paperswithcode.com/dataset/ucy UCY dataset].
 
 This project is an extension to this [https://arxiv.org/abs/2210.00552 paper].
