@@ -57,6 +57,25 @@ projects, hackathons, personal projects and undergrad research.</div>
 </div>
 <h2>2023</h2>
 <div id="text-img-container"><div id="img-container">
+<img src="./images/crowd_nav.gif" alt="" width="280px" /></div>
+<div id="text-container"><h2>Crowd Navigation with Occlusion-Aware Inference Using People as Sensors</h2>
+<h3>Asher Mai, Ye-Ji Mun, Prof Katie Driggs-Campbell</h3>
+<h3>Undergrad Research</h3>
+<p>By training a variational auto-encoder (VAE) to generate occupancy grid maps (OGM) that
+try to &ldquo;see&rdquo; occluded pedestrians given sensor OGM data that don't &ldquo;see&rdquo; occluded pedestrians, 
+we effectively use people as sensors in crowd 
+navigation tasks. My contribution includes,</p>
+<ol>
+<li><p>Using blob detection to evaluate accuracy of generated OGM compared to ground truth OGM
+and assessing the network's ability to see pedestrians that the sensor doesn't see. </p>
+</li>
+<li><p>Integrating baseline planner such as Astar search on the 
+<a href="https://paperswithcode.com/dataset/ucy" target=&ldquo;blank&rdquo;>UCY dataset</a>.</p>
+</li>
+</ol>
+<p>This project is an extension to this <a href="https://arxiv.org/abs/2210.00552" target=&ldquo;blank&rdquo;>paper</a>.</p>
+</div></div>
+<div id="text-img-container"><div id="img-container">
 <img src="./images/rivian.gif" alt="" width="280px" id="rivian" /></div>
 <div id="text-container"><h2>Rivian Adventure Retro Game</h2>
 <h3>Asher Mai, Advaith Bala, David Chen</h3>
@@ -129,6 +148,16 @@ method with MobileNetV3. We applied different visual effects based on the gestur
 <a href="./assets/ECE549_Final_Report.pdf" target=&ldquo;blank&rdquo;>Final Report</a></p>
 </div></div>
 <div id="text-img-container"><div id="img-container">
+<img src="./images/quantization.jpeg" alt="" width="280px" /></div>
+<div id="text-container"><h2>Convolutional Neural Network Pruning and Quantization for FPGA</h2>
+<h3>Chuxuan Hu, Hanlin “Asher” Mai, Jiaru Zou, Joseph Rejive, William Eustis, Prof. Volodymyr Kindratenko</h3>
+<h3>Undergrad Research</h3>
+<p>We trained VGG16 image classification CNN using PyTorch and CIFAR10 dataset.
+We were able to reduce the model size by more than 4x using pruning and PyTorch’s Post Training Quantization framework, 
+and collaborated with FPGA team to integrate quantized 8 bit convolutional kernels for image classification on hardware.</p>
+<p><a href="./assets/quantization.pdf" target=&ldquo;blank&rdquo;>Poster</a></p>
+</div></div>
+<div id="text-img-container"><div id="img-container">
 <img src="./images/yoyo.gif" alt="" width="280px" id="yoyo" /></div>
 <div id="text-container"><h2>Automatic Visual Effect on Yoyo Trick Videos </h2>
 <h3>Asher Mai</h3>
@@ -151,16 +180,6 @@ Intersection Over Union (IOU) metric. We tested how well the PID control follows
 Dynamic Time Warping (DTW).</p>
 <p><a href="https://www.youtube.com/watch?list=PLcA4s4DKSOF12iLaJmmJ_2ZoCD6aFd9Ct&amp;v=-f7Qd7TnaDU" target=&ldquo;blank&rdquo;>Youtube</a> /
 <a href="https://docs.google.com/presentation/d/1qyt7nnVl4wSo1H0AG19ofFyk_EndlIzEOxcE05svHTk/edit?usp=sharing" target=&ldquo;blank&rdquo;>Presentation</a></p>
-</div></div>
-<div id="text-img-container"><div id="img-container">
-<img src="./images/quantization.jpeg" alt="" width="280px" /></div>
-<div id="text-container"><h2>Convolutional Neural Network Pruning and Quantization for FPGA</h2>
-<h3>Chuxuan Hu, Hanlin “Asher” Mai, Jiaru Zou, Joseph Rejive, William Eustis, Volodymyr Kindratenko</h3>
-<h3>Undergrad Research</h3>
-<p>We trained VGG16 image classification CNN using PyTorch and CIFAR10 dataset.
-We were able to reduce the model size by more than 4x using pruning and PyTorch’s Post Training Quantization framework, 
-and collaborated with FPGA team to integrate quantized 8 bit convolutional kernels for image classification on hardware.</p>
-<p><a href="./assets/quantization.pdf" target=&ldquo;blank&rdquo;>Poster</a></p>
 </div></div>
 <h2>2021</h2>
 <div id="text-img-container"><div id="img-container">
@@ -200,7 +219,7 @@ Modeled and animated with <a href="https://www.blender.org" target=&ldquo;blank&
 windows floating around you, and you can drag them around. You can have multiple screens but 
 without any monitors. This imagination has been brought to reality with the recent release
 of Apple Vision Pro.<br />
-Modeled and animated with <a href="https://www.blender.org" target=&ldquo;blank&rdquo;>Blender</a>.</p>
+Modeled with <a href="https://www.blender.org" target=&ldquo;blank&rdquo;>Blender</a>.</p>
 </div></div>
 <style>
     div#layout-content-container {
@@ -217,7 +236,7 @@ Modeled and animated with <a href="https://www.blender.org" target=&ldquo;blank&
 <div id="footer-container">
 <div id="footer">
 <div id="footer-text">
-Last edited  on September 6<sup>th</sup> 2023  12:30PM (Time Zone: CDT). </br>
+Last edited  on September 10<sup>th</sup> 2023  06:14PM (Time Zone: CDT). </br>
 Powered by <a href="https://github.com/szl2/jemdoc-new-design" target="blank">jemdoc + new design</a>.
 </div> <!-- <div id="footer-text"> -->
 </div> <!-- <div id="footer"> -->

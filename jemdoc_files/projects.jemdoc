@@ -5,6 +5,22 @@ projects, hackathons, personal projects and undergrad research.
 
 == 2023
 
+~~~
+{}{img_left}{./images/crowd_nav.gif}{}{280px}{}{}{}
+== Crowd Navigation with Occlusion-Aware Inference Using People as Sensors
+=== Asher Mai, Ye-Ji Mun, Prof Katie Driggs-Campbell
+=== Undergrad Research
+By training a variational auto-encoder (VAE) to generate occupancy grid maps (OGM) that
+try to "see" occluded pedestrians given sensor OGM data that don't "see" occluded pedestrians, 
+we effectively use people as sensors in crowd 
+navigation tasks. My contribution includes,
+. Using blob detection to evaluate accuracy of generated OGM compared to ground truth OGM
+and assessing the network's ability to see pedestrians that the sensor doesn't see. 
+. Integrating baseline planner such as Astar search on the 
+[https://paperswithcode.com/dataset/ucy UCY dataset].
+
+This project is an extension to this [https://arxiv.org/abs/2210.00552 paper].
+~~~
 
 ~~~
 {}{img_left}{./images/rivian.gif}{}{280px}{}{}{rivian}
@@ -79,6 +95,18 @@ method with MobileNetV3. We applied different visual effects based on the gestur
 ~~~
 
 ~~~
+{}{img_left}{./images/quantization.jpeg}{}{280px}{}{}{}
+== Convolutional Neural Network Pruning and Quantization for FPGA
+=== Chuxuan Hu, Hanlin “Asher” Mai, Jiaru Zou, Joseph Rejive, William Eustis, Prof. Volodymyr Kindratenko
+=== Undergrad Research
+We trained VGG16 image classification CNN using PyTorch and CIFAR10 dataset.
+We were able to reduce the model size by more than 4x using pruning and PyTorch’s Post Training Quantization framework, 
+and collaborated with FPGA team to integrate quantized 8 bit convolutional kernels for image classification on hardware.
+
+[./assets/quantization.pdf Poster]
+~~~
+
+~~~
 {}{img_left}{./images/yoyo.gif}{}{280px}{}{}{yoyo}
 == Automatic Visual Effect on Yoyo Trick Videos 
 === Asher Mai
@@ -104,18 +132,6 @@ Dynamic Time Warping (DTW).
 
 [https://www.youtube.com/watch?list=PLcA4s4DKSOF12iLaJmmJ_2ZoCD6aFd9Ct&v=-f7Qd7TnaDU Youtube] \/
 [https://docs.google.com/presentation/d/1qyt7nnVl4wSo1H0AG19ofFyk_EndlIzEOxcE05svHTk/edit?usp=sharing Presentation]
-~~~
-
-~~~
-{}{img_left}{./images/quantization.jpeg}{}{280px}{}{}{}
-== Convolutional Neural Network Pruning and Quantization for FPGA
-=== Chuxuan Hu, Hanlin “Asher” Mai, Jiaru Zou, Joseph Rejive, William Eustis, Volodymyr Kindratenko
-=== Undergrad Research
-We trained VGG16 image classification CNN using PyTorch and CIFAR10 dataset.
-We were able to reduce the model size by more than 4x using pruning and PyTorch’s Post Training Quantization framework, 
-and collaborated with FPGA team to integrate quantized 8 bit convolutional kernels for image classification on hardware.
-
-[./assets/quantization.pdf Poster]
 ~~~
 
 == 2021
@@ -161,7 +177,7 @@ I had an imagination for what computers might look like in the future. You can h
 windows floating around you, and you can drag them around. You can have multiple screens but 
 without any monitors. This imagination has been brought to reality with the recent release
 of Apple Vision Pro.\n
-Modeled and animated with [https://www.blender.org Blender].
+Modeled with [https://www.blender.org Blender].
 ~~~
 
 ~~~
