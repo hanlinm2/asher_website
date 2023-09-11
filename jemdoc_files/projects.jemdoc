@@ -164,7 +164,8 @@ All the best for your course and future projects." --- [https://andrewsum.com An
 === Personal Project
 I was experimenting with 3D animation, and I had this idea of combining
 frosted glass and changing shape keys that animates the shape of both 
-the inner and outer sphere.\n
+the inner and outer sphere.
+
 Modeled and animated with [https://www.blender.org Blender].
 ~~~
 
@@ -176,8 +177,28 @@ Modeled and animated with [https://www.blender.org Blender].
 I had an imagination for what computers might look like in the future. You can have
 windows floating around you, and you can drag them around. You can have multiple screens but 
 without any monitors. This imagination has been brought to reality with the recent release
-of Apple Vision Pro.\n
+of Apple Vision Pro.
+
 Modeled with [https://www.blender.org Blender].
+~~~
+
+== 2019
+
+~~~
+{}{img_left}{./images/endbound.jpeg}{}{280px}{}{}{}
+== EndBound: A Calculus-based Board Game
+=== Asher Mai, Ben Snyder, Jake Mulé, Jeremy Cheng
+=== AP Calculus BC
+We designed a board game similar to Chutes and Ladders, but instead of using
+dice roll to determine how far you move, you use Function cards and EndBound cards
+to calculate the integral that determines how far you move.
+
+Steps to move =
+\(
+    \int\limits_{0}^{(EndBound\;Card)} (Function\;Card) \;dx
+\)
+
+[./assets/endBound_rules.pdf Rule Book]
 ~~~
 
 ~~~
