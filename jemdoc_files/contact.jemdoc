@@ -139,7 +139,7 @@
     function sendEmail(){
     Email.send({
         SecureToken : "db31560a-fe87-48a4-b9fe-f828e64af3f9",
-        To : 'hanlinm2@illinois.edu',
+        To : 'hanlin.asher.mai@gmail.com',
         From : "hanlinm2@illinois.edu",
         Subject : document.getElementById ("name").value + " sent you a message",
         Body : "Name: " + document.getElementById ("name").value
