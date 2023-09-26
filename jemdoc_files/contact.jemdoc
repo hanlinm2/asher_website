@@ -134,6 +134,7 @@
 
             #success-message {
                 font-size: 20px;
+                line-height: 25px;
             }
         </style>
     </div>
