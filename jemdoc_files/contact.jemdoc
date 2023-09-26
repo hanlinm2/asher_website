@@ -131,6 +131,10 @@
                 padding: 0;
                 margin: 0;
             }
+
+            #success-message {
+                font-size: 20px;
+            }
         </style>
     </div>
 </form>
