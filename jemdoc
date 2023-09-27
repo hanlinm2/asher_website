@@ -1559,7 +1559,7 @@ def procfile(f):
           out(f.outf, '<div id="text-img-container"><div id="img-container">\n')
           if g[6]:
             out(f.outf, '<a href="%s">' % g[6])
-          out(f.outf, '<video autoplay loop muted')
+          out(f.outf, '<video autoplay loop muted playsinline')
           out(f.outf, ' alt="%s"' % g[3])
           if g[4]:
             out(f.outf, ' width="%s"' % g[4])
