@@ -1545,6 +1545,36 @@ def procfile(f):
           out(f.outf, '</div>\n<div id="text-container">')
           imgblock = True
 
+        elif len(g) >= 4 and g[1] == 'video_left':
+          # handles
+          # {}{video_left}{source}{alttext}{width}{height}{linktarget}{id}.
+          g += ['']*(7 - len(g))
+
+          if g[4].isdigit():
+            g[4] += 'px'
+
+          if g[5].isdigit():
+            g[5] += 'px'
+
+          out(f.outf, '<div id="text-img-container"><div id="img-container">\n')
+          if g[6]:
+            out(f.outf, '<a href="%s">' % g[6])
+          out(f.outf, '<video autoplay loop muted')
+          out(f.outf, ' alt="%s"' % g[3])
+          if g[4]:
+            out(f.outf, ' width="%s"' % g[4])
+          if g[5]:
+            out(f.outf, ' height="%s"' % g[5])
+          if len(g) > 7 and g[7]:
+            out(f.outf, ' id="%s"' % g[7])
+          out(f.outf, '>')
+          out(f.outf, '<source src="%s" type="video/%s" />' % (g[2], g[2][-3:]))
+          out(f.outf, '</video>')
+          if g[6]:
+            out(f.outf, '</a>')
+          out(f.outf, '</div>\n<div id="text-container">')
+          imgblock = True
+
         else:
           raise JandalError("couldn't handle block", f.linenum)
 

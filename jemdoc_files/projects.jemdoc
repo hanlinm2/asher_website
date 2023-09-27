@@ -39,7 +39,7 @@ Rivian Adventure is a retro game that incorporates many aspects of the company:
 
 
 ~~~
-{}{img_left}{./images/head_controlled_mouse.gif}{}{280px}{}{}
+{}{video_left}{./images/head_controlled_mouse.mp4}{}{280px}{}{}
 == Head-Controlled Mouse
 === Amanda Favila, Asher Mai, Lauren Wilcox
 === ECE 445: Senior Design
@@ -105,7 +105,7 @@ and collaborated with FPGA team to integrate quantized 8 bit convolutional kerne
 ~~~
 
 ~~~
-{}{img_left}{./images/yoyo.gif}{}{280px}{}{}{yoyo}
+{}{video_left}{./images/yoyo.mp4}{}{280px}{}{}{yoyo}
 == Automatic Visual Effect on Yoyo Trick Videos 
 === Asher Mai
 === Personal Project
@@ -118,7 +118,7 @@ the position of the yoyo in each frame, and then add a trace of the path that th
 ~~~
 
 ~~~
-{}{img_left}{./images/Gem.gif}{}{280px}{}{}{}
+{}{video_left}{./images/Gem.mp4}{}{280px}{}{}{}
 == GEM Vehicle Parking Navigation with Pipeline Design
 === Yan Miao, Arjun Ray, John Pohovey, Asher Mai
 === [https://publish.illinois.edu/safe-autonomy/ ECE 484: Principles of Safe Autonomy]
@@ -156,7 +156,7 @@ All the best for your course and future projects." --- [https://andrewsum.com An
 == 2020
 
 ~~~
-{}{img_left}{./images/ball.gif}{}{280px}{}{}{}
+{}{video_left}{./images/ball.mp4}{}{280px}{}{}{}
 == Floating Glass Sphere
 === Asher Mai
 === Personal Project

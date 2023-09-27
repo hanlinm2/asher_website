@@ -434,7 +434,7 @@ div#toptitle h1, #layout-content div#toptitle h1 {
 }
 
 
-img {
+img, video{
 	padding: 0px;
 	margin-right: 20px;
 	margin-bottom: 10px;
@@ -632,7 +632,7 @@ div#layout-menu-container .closebtn:hover {
 
 /* Width to center image */
 @media screen and (max-width: 700px) {
-	img{
+	img, video{
 		margin-right: 0px;
 	}
 
@@ -693,7 +693,7 @@ div#member{
 	margin-right: 10px;
 }
 
-div#member img{
+div#member img, div#member video{
 	width: 150px;
 	margin: 0px;
 	padding: 0px;
@@ -722,7 +722,7 @@ div#member p{
   padding: 0 4px;
 }
 
-.column img {
+.column img, .column video {
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
