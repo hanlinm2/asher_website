@@ -135,7 +135,7 @@ Dynamic Time Warping (DTW).
 == 2021
 
 ~~~
-{}{img_left}{./images/crossy.gif}{}{280px}{189.75px}{}{}
+{}{video_left}{./images/crossy.mp4}{}{280px}{}{}{}
 == Crossy Road Game on FPGA
 === Asher Mai, Amanda Favila
 === ECE 385: Digital Systems Laboratory
@@ -144,7 +144,7 @@ We designed our own game graphics down to pixel level and output VGA signal to d
 One of the challenges was to randomly generate and efficiently store the essential game information such as all the car and tree positions. 
 After brainstorming, we came up with the idea of using linear-feedback shift registers to solve this challenge.
 
-[https://www.linkedin.com/posts/ashermai_after-a-month-of-workamanda-favilaand-activity-6797002446129524736-JILB?utm_source=share&utm_medium=member_desktop Full Video]
+[https://www.linkedin.com/posts/ashermai_after-a-month-of-workamanda-favilaand-activity-6797002446129524736-JILB?utm_source=share&utm_medium=member_desktop LinkedIn Post]
 ~~~
 
 ~~~
