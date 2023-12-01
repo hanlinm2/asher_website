@@ -33,19 +33,38 @@
     <div class="Inline">
         <style>
             form.contact_form {
-                background: #13294b;
+                /* background: #ffffff; */
                 padding-top: 40px;
                 padding-left: 40px;
                 padding-bottom: 40px;
                 padding-right: 40px;
-                border-radius: 0px;
+
                 box-sizing: border-box;
-                box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
                 border-radius: 20px;
+                box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .6); 
+                position: relative;
+                z-index: 0;
+                background: inherit;
+                overflow: hidden;
+            }
+
+            form.contact_form:before {
+                content: "";
+                position: absolute;
+                background: inherit;
+                z-index: -1;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+                backdrop-filter: blur(5px) !important;
+                -webkit-backdrop-filter: blur(5px) !important;
+                margin: -20px;
             }
 
             form.contact_form p {
-                color: #d1d8f7;
+                color: #000000;
                 text-align: left;
                 line-height: 16px;
                 font-size: 14px;
@@ -55,7 +74,7 @@
             form.contact_form .contact_header {
                 background: transparent;
                 padding: 0px;
-                color: #ffffff;
+                color: #000000;
                 text-align: center;
                 line-height: 30px;
                 font-size: 28px;
@@ -65,7 +84,7 @@
             form.contact_form label {
                 line-height: 16px;
                 font-size: 14px;
-                color: #ffffff;
+                color: #000000;
                 text-align: left;
                 display: block;
                 margin-bottom: 5px;
@@ -87,6 +106,7 @@
                 max-width: 100%;
                 display: block;
                 font-family: 'Lato', Verdana, Helvetica, sans-serif;
+                border: 1px solid gray;
             }
 
             form.contact_form input::placeholder, form.contact_form textarea::placeholder {
@@ -157,4 +177,20 @@
     success.style.display = "block";
     }
 </script>
+<style>
+    div#layout {
+        background-image:  url("./images/deepmind-landscape.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center center;
+    }
+
+    /* Width to make background vertical */
+    @media screen and (max-width: 700px) {
+        div#layout {
+        background-image:  url("./images/deepmind-vertical.jpg");
+    }  
+    }
+
+</style>
 ~~~

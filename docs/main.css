@@ -27,7 +27,7 @@ div#header {
 	width: 100vw;
 	height: 70px;
 	background: #13294B;
-	z-index: 1;
+	z-index: 2;
 	position: fixed;
 	display:flex;
 	justify-content: space-between;
@@ -86,8 +86,24 @@ div#layout-menu {
 	min-width: 300px;
 	position: fixed;
 	overflow: hidden;
-	background: #f6f8fa;
+	background: inherit;
 	border-right: 0.8px solid #e1e4e8;
+	z-index: 0;
+}
+
+div#layout-menu:before {
+	content: "";
+	position: absolute;
+	background: inherit;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+	backdrop-filter: blur(5px) !important;
+	-webkit-backdrop-filter: blur(5px) !important;
+	margin: -20px;
 }
 
 #layout-menu a {

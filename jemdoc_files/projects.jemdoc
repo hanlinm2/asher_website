@@ -6,6 +6,20 @@ projects, hackathons, personal projects and undergrad research.
 == 2023
 
 ~~~
+{}{video_left}{./images/HRI.mp4}{}{280px}{}{}
+== Hand Gesture Robot Control 
+=== Asher Mai, Joshua Cox, Ian Xu
+=== ECE 598: Human Robot Interaction
+We use a fully vision based approach to enable gesture based robot control. We
+demonstrate drawing and pick-and-place tasks using this method. While the right hand
+controls how the robot's end-effector moves (x and y direction), 
+the left hand controls up and down motion (z direction),
+as well as turning on and off the vacuum gripper depending on the various gestures.
+
+[./assets/598finalpresentation.pdf Presentation]
+~~~
+
+~~~
 {}{img_left}{./images/crowd_nav.gif}{}{280px}{}{}{}
 == Crowd Navigation with Occlusion-Aware Inference Using People as Sensors
 === Asher Mai, [https://yejimun.github.io Ye-Ji Mun], Prof Katie Driggs-Campbell
@@ -212,6 +226,7 @@ Steps to move =
         background-color: #FFFFFF;
         border-radius: 20px;
         padding:20px;
+        box-shadow: 0px 0px 15px gray;
     }
 </style>
 ~~~
