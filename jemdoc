@@ -194,6 +194,9 @@ def standardconf():
   [menuitem]
   <div class="menu-item"><a href="|1"|3>|2</a></div>
 
+  [navbaritem]
+  <div class="navbar-item"><a href="|1"|3>|2</a></div>
+
   [specificcss]
   <link rel="stylesheet" href="|" type="text/css" />
 
