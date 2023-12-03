@@ -67,7 +67,7 @@
         z-index: 1;
         position: relative;
     }
-    div#footer-text {
+    div#subtitle, div#footer-text, div#layout-content > h2, h1{
         background-color: #FFFFFF;
         border-radius: 20px;
         padding:10px;
@@ -81,7 +81,7 @@
         overflow: hidden;
     }
 
-    div#footer-text:before {
+    div#subtitle:before, div#footer-text:before, div#layout-content > h2:before, h1:before {
         content: "";
         position: absolute;
         background: inherit;
@@ -94,6 +94,10 @@
         backdrop-filter: blur(10px) !important;
         -webkit-backdrop-filter: blur(10px) !important;
         margin: -20px;
+    }
+
+    div#layout-content > h2, h1 {
+        display:inline-block;
     }
 </style>
 ~~~

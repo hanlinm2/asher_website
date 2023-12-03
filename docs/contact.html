@@ -249,7 +249,8 @@ MathJax.Hub.Config({
         background-position: center center;
         z-index: 0;
     }
-    div#footer-text {
+
+    div#subtitle, div#footer-text, div#layout-content > h2, h1{
         background-color: #FFFFFF;
         border-radius: 20px;
         padding:10px;
@@ -263,7 +264,7 @@ MathJax.Hub.Config({
         overflow: hidden;
     }
 
-    div#footer-text:before {
+    div#subtitle:before, div#footer-text:before, div#layout-content > h2:before, h1:before {
         content: "";
         position: absolute;
         background: inherit;
@@ -278,13 +279,17 @@ MathJax.Hub.Config({
         margin: -20px;
     }
 
+    div#layout-content > h2, h1 {
+        display:inline-block;
+    }
+
 </style>
 
 </div> <!-- <div id="layout-content"> -->
 <div id="footer-container">
 <div id="footer">
 <div id="footer-text">
-Last edited  on December 3<sup>rd</sup> 2023  04:46PM (Time Zone: CST). </br>
+Last edited  on December 3<sup>rd</sup> 2023  05:55PM (Time Zone: CST). </br>
 Powered by <a href="https://github.com/szl2/jemdoc-new-design" target="blank">jemdoc + new design      </a>.
 Background images from <a href="https://deepmind.google/discover/visualising-ai/" target="blank">Google Deepmind</a>.
 Professional headshot from <a href="https://www.shennyvisuals.com" target="blank">Shenny Visuals</a>.

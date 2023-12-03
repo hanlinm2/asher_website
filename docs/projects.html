@@ -312,7 +312,7 @@ to calculate the integral that determines how far you move.</p>
         position: relative;
     }
 
-    div#footer-text {
+    div#subtitle, div#footer-text, div#layout-content > h2, h1{
         background-color: #FFFFFF;
         border-radius: 20px;
         padding:10px;
@@ -326,7 +326,7 @@ to calculate the integral that determines how far you move.</p>
         overflow: hidden;
     }
 
-    div#footer-text:before {
+    div#subtitle:before, div#footer-text:before, div#layout-content > h2:before, h1:before {
         content: "";
         position: absolute;
         background: inherit;
@@ -339,34 +339,10 @@ to calculate the integral that determines how far you move.</p>
         backdrop-filter: blur(10px) !important;
         -webkit-backdrop-filter: blur(10px) !important;
         margin: -20px;
-    }
-    div#subtitle {
-        background-color: #FFFFFF;
-        border-radius: 20px;
-        padding:10px;
-        box-shadow: 0px 0px 15px gray;
-        box-sizing: border-box;
-        border-radius: 20px;
-        box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .6); 
-        position: relative;
-        z-index: 1;
-        background: inherit;
-        overflow: hidden;
     }
 
-    div#subtitle:before {
-        content: "";
-        position: absolute;
-        background: inherit;
-        z-index: -1;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
-        backdrop-filter: blur(10px) !important;
-        -webkit-backdrop-filter: blur(10px) !important;
-        margin: -20px;
+    div#layout-content > h2, h1 {
+        display:inline-block;
     }
 
 </style>
@@ -374,7 +350,7 @@ to calculate the integral that determines how far you move.</p>
 <div id="footer-container">
 <div id="footer">
 <div id="footer-text">
-Last edited  on December 3<sup>rd</sup> 2023  04:46PM (Time Zone: CST). </br>
+Last edited  on December 3<sup>rd</sup> 2023  05:55PM (Time Zone: CST). </br>
 Powered by <a href="https://github.com/szl2/jemdoc-new-design" target="blank">jemdoc + new design      </a>.
 Background images from <a href="https://deepmind.google/discover/visualising-ai/" target="blank">Google Deepmind</a>.
 Professional headshot from <a href="https://www.shennyvisuals.com" target="blank">Shenny Visuals</a>.
