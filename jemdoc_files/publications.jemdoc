@@ -1,0 +1,28 @@
+# jemdoc: menu{MENU}{publications.html}
+= Publications
+
+== 2023
+
+~~~
+{}{img_left}{./images/pic03.png}{}{280px}{}{}
+== Paper title: Coming Soon
+=== Author 1, Author 2, Author 3
+==== Conference name
+~~~
+
+~~~
+{}{raw}
+<style>
+    div#layout-content-container {
+        background-color: #F5F5F7 !important ;
+    }
+
+    div#text-img-container {
+        background-color: #FFFFFF;
+        border-radius: 20px;
+        padding:20px;
+        box-shadow: 0px 0px 15px gray;
+    }
+</style>
+~~~
+

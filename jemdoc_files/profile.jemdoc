@@ -1,0 +1,72 @@
+# jemdoc: menu{MENU}{profile.html}
+
+~~~
+{}{img_left}{./images/eceb.jpeg}{profile pic}{100%}{}{}
+~~~
+
+~~~
+{}{img_left}{./images/profile.jpg}{profile pic}{200px}{}{}
+= Hanlin "Asher" Mai \n
+=== University of Illinois Urbana-Champaign \n 
+=== [https://ece.illinois.edu Electrical & Computer Engineering] \n
+I am a M.S / Ph.D. student in ECE at UIUC expecting to graduate May 2028. # where I am advised by Professor XXX. 
+Before this, I received my B.S. in Computer Engineering with Highest Honors at UIUC in May 2023. 
+During my undergrad, I worked as a Machine Learning Intern at [https://rivian.com Rivian].
+
+[mailto:hanlinm2@illinois.edu Email] \/
+[https://scholar.google.com/citations?user=Ftnq47gAAAAJ&hl=en Google Scholar] \/
+[https://www.linkedin.com/in/ashermai/ LinkedIn] \/
+[https://github.com/hanlinm2 Github] \/
+[https://www.instagram.com/asher_mai/ Instagram] 
+~~~
+
+== Research statement
+My research focuses on Computer Vision and Machine Learning. I am particularly interested in
+how CV and ML can be used to improve our lives in areas such as productivity and accessibility.
+I want to investigate potential solutions to some of the ethical problems in AI and how to make AI
+better at problem solving without sacrificing morality.
+
+== Teaching
+- Teaching Assistant for [https://ece.illinois.edu/academics/courses/ece220 ECE 220: Computer Systems & Programming] (Current)
+- Course Assistant for [https://ece.illinois.edu/academics/courses/ece391 ECE 391: Computer Systems Engineering]
+- Grader for [https://ece.illinois.edu/academics/courses/ece120 ECE 120: Introduction to Computing]
+
+== Biography
+- My name is 麦瀚林 (Mai, Hanlin), and I go by Asher. 
+- I was born on Sep 28, 2000 in Guangzhou, China. 
+- From 1st to 8th grade, I went to [https://www.gwdwx.com/ English School attached to Guangdong University of Foreign Studies]. It
+  was a semi-boarding school where I only went home on weekends. There, I learned how to be independent, how to speak
+  English confidently, and how to perform in a public setting and address an audience.
+- I went to [https://palmvalley-school.org/ Palm Valley School] for 9th to 12th grade in Rancho Mirage, CA.
+  I played Football, Basketball, Volleyball and Golf. I also did Drama and performed in 5 different shows: Treasure Island,
+  A Few Good Men, The Crucible, Shrek the Musical, and Drowsy Chaperone. 
+- I got a B.S. in Computer Engineering at [https://illinois.edu/ University of Illinois Urbana-Champaign] in May 2023. 
+
+== News
+~~~
+{}{table}{news_table}
+08\/2023  | Started M.S/Ph.D in ECE at UIUC and TA for ECE 220, ending internship at Rivian||
+07\/2023  | Competed in inaugural Research Park Hackathon and won 1st place ||
+05\/2023  | Received B.S. in Computer Engineering with Highest Honors   ||
+04\/2023  | Received [https://ece.illinois.edu/academics/ugrad/scholarships-and-awards/awards/bit Donald L. Bitzer and H. Gene Slottow Creativity Award] ||
+01\/2023  | Started Machine Learning Intern role at [https://rivian.com Rivian]
+~~~
+
+# == Current Project
+# Donec tellus eros, rhoncus nec imperdiet in, tempus et mi. Quisque id feugiat enim. Suspendisse porta consequat velit, ac ullamcorper purus suscipit ac. Mauris laoreet varius urna. Suspendisse potenti. In et laoreet augue, et lobortis tellus. Etiam nec tortor tempus, lobortis turpis id, fermentum dolor. Mauris orci ante, porttitor ac viverra et, facilisis in lectus. Praesent faucibus non elit sit amet cursus. Duis eu viverra lectus, nec blandit magna. Nullam id ante semper, vestibulum neque tristique, accumsan ipsum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam mollis velit fermentum ex bibendum, eget molestie nisl porta.
+
+~~~
+{}{raw}
+<style>
+    div#layout-content-container:has(p) {
+        background-color: #F5F5F7 !important ;
+    }
+
+    div#text-img-container:has(p) {
+        background-color: #FFFFFF;
+        border-radius: 20px;
+        padding:20px;
+        box-shadow: 0px 0px 15px gray;
+    }
+</style>
+~~~
