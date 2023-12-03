@@ -214,7 +214,7 @@ div.menu-item {
 div#toptitle {
 	padding-bottom: 0.2em;
 	margin-bottom: 1.5em;
-	border-bottom: 1px solid rgb(161, 170, 183);
+	/* border-bottom: 1px solid rgb(161, 170, 183); */
 }
 
 /* Reduce space if we begin the page with a title. */
