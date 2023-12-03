@@ -256,14 +256,14 @@ Steps to move =
     div#text-img-container:before {
         content: "";
         position: absolute;
-        background: inherit;
+        /* background: inherit; */
         z-index: -1;
         top: 0;
         left: 0;
         right: 0;
         bottom: 0;
         box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
-        backdrop-filter: blur(10px) !important;
+        backdrop-filter: blur(30px) !important;
         -webkit-backdrop-filter: blur(10px) !important;
         margin: -20px;
     }
