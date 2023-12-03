@@ -43,7 +43,7 @@
                 border-radius: 20px;
                 box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .6); 
                 position: relative;
-                z-index: 0;
+                z-index: 1;
                 background: inherit;
                 overflow: hidden;
             }
@@ -177,20 +177,24 @@
     success.style.display = "block";
     }
 </script>
+
+<div class="bg-image" style="display:block;"></div>
 <style>
-    div#layout {
-        background-image:  url("./images/deepmind-landscape.jpg");
+    .bg-image{
         background-attachment: fixed;
+        background-size: 100%;
+        width: 100%;
+        height: 100%;
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: #fff url("./images/deepmind1.jpg") center no-repeat;
         background-size: cover;
         background-position: center center;
-    }
-
-    /* Width to make background vertical */
-    @media screen and (max-width: 700px) {
-        div#layout {
-        background-image:  url("./images/deepmind-vertical.jpg");
-    }  
+        z-index: 0;
     }
 
 </style>
+
 ~~~

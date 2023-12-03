@@ -40,7 +40,7 @@ div#header {
 	width: 100vw;
 	height: 70px;
 	background: #13294B;
-	z-index: 5;
+	z-index: 100;
 	position: fixed;
 	display:flex;
 	justify-content: space-between;
@@ -100,7 +100,7 @@ div#layout-menu {
 	position: fixed;
 	overflow: hidden;
 	background: inherit;
-	z-index: 1;
+	z-index: 5;
 	transition: 0.5s;
 	min-width: 0px;
 	width: 0px;
@@ -115,6 +115,7 @@ div#layout-menu:before {
 	position: absolute;
 	background: inherit;
 	z-index: -1;
+
 	top: 0;
 	left: 0;
 	right: 0;
@@ -139,7 +140,6 @@ div#layout-content-container {
 	display: inline-block;
 	margin-left:0px;
 	width: 100%;
-
 }
 
 div#layout-content{
@@ -151,7 +151,7 @@ div#layout-content{
 	min-width: 200px;
 	max-width: 850px;
 	margin: auto;
-
+	z-index: -100;
 }
 
 
@@ -214,7 +214,7 @@ div.menu-item {
 div#toptitle {
 	padding-bottom: 0.2em;
 	margin-bottom: 1.5em;
-	border-bottom: 1px solid #e1e4e8;
+	border-bottom: 1px solid rgb(161, 170, 183);
 }
 
 /* Reduce space if we begin the page with a title. */
@@ -242,7 +242,7 @@ h1, h2, h3 {
 	padding-bottom: 0.2em;
 	line-height: 1.25;
 	padding-top: 0.5em;
-	border-bottom: 0.7px solid #e1e4e8;
+	border-bottom: 0.7px solid rgb(161, 170, 183);
 	font-weight: 400;
 }
 
@@ -290,11 +290,13 @@ pre {
 
 
 div#footer-container{
+	z-index: 10;
+	position: relative;
 }
 
 div#footer {
 	font-size: small;
-	color: #c0c0c0;
+	color: black;
 	min-width: 200px;
 	max-width: 850px;
 	margin: auto;
@@ -305,11 +307,11 @@ div#footer {
 }
 
 div#footer a {
-	color: #13294B;
+	color: #5783BC;
 }
 
 div#footer a:hover {
-	color: #ea4aaa;
+	color: #E56E15;
 }
 
 div#footer-text {
@@ -381,6 +383,30 @@ div.codeblock, div.infoblock {
 	margin-right: 0%;
 	margin-top: 1.2em;
 	margin-bottom: 1.3em;
+
+	box-sizing: border-box;
+	border-radius: 20px;
+	box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .6); 
+	position: relative;
+	z-index: 1;
+	background: inherit;
+	overflow: hidden;
+}
+
+div.infoblock::before{
+	content: "";
+	position: absolute;
+	background: inherit;
+	z-index: -1;
+
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+	backdrop-filter: blur(10px) !important;
+	-webkit-backdrop-filter: blur(10px) !important;
+	margin: -20px;
 }
 
 div.blocktitle {
@@ -395,7 +421,7 @@ div.blockcontent {
 
 div.infoblock > div.blockcontent {
 	background-color: rgba(228, 156, 134, 0.3);;
-	border: 1px solid #B74D04;
+	/* border: 1px solid #B74D04; */
 	border-radius: 9px;
 	color: #B74D04;
 }
@@ -518,7 +544,6 @@ table + table {
 }
 
 #countries tr:nth-child(even) {background-color: #f6f8fa;}
-
 
 
 div#text-img-container {
