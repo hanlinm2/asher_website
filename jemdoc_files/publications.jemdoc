@@ -3,11 +3,20 @@
 
 == 2023
 
+
 ~~~
-{}{img_left}{./images/pic03.png}{}{280px}{}{}
-== Paper title: Coming Soon
-=== Author 1, Author 2, Author 3
-==== Conference name
+{}{img_left}{./images/shadows.png}{}{280px}{}{}
+== /Shadows Don’t Lie and Lines Can’t Bend!/ \n Generative Models don’t know Projective Geometry...for now
+=== [https://www.linkedin.com/in/ayush-sarkar Ayush Sarkar]\*,  *Hanlin Mai*\*, Amitabh Mahapatra\*,  [https://slazebni.cs.illinois.edu/ Svetlana Lazebnik],  [http://luthuli.cs.uiuc.edu/~daf/ David A. Forsyth], and [https://anandbhattad.github.io/ Anand Bhattad]
+==== arXiv, 2023
+* equal contribution
+
+Using only derived geometric properties, we can distinguish generated images from real ones without using image pixels.
+Thus, we show that current generative models cannot reliably generate correct shadows and/or perspective geometry.
+
+
+[https://projective-geometry.github.io Project Page] \/
+[https://arxiv.org/abs/2311.17138 arXiv]
 ~~~
 
 ~~~
