@@ -307,5 +307,8 @@ Steps to move =
     }
 
 </style>
+<script>
+    document.title = "Asher's Projects"
+</script>
 ~~~
 

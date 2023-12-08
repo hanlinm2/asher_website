@@ -70,4 +70,7 @@ better at problem solving without sacrificing morality.
         box-shadow: 0px 0px 15px gray;
     }
 </style>
+<script>
+  document.title = "Asher's Profile"
+</script>
 ~~~

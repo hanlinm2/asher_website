@@ -109,5 +109,8 @@ Thus, we show that current generative models cannot reliably generate correct sh
         display:inline-block;
     }
 </style>
+<script>
+    document.title = "Asher's Publications"
+</script>
 ~~~
 

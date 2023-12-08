@@ -229,5 +229,7 @@
     }
 
 </style>
-
+<script>
+    document.title = "Asher's Contact"
+</script>
 ~~~
