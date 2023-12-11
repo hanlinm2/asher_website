@@ -6,6 +6,21 @@ projects, hackathons, personal projects and undergrad research.
 == 2023
 
 ~~~
+{}{img_left}{./images/hog.jpg}{}{280px}{}{}
+== Classical Method on New Datasets: Pedestrian Detection with HOG and CNN
+=== Asher Mai, Matthew Tang, Sid Ahuja
+==== CS 598 LAZ: Computer Vision: What Will Stand the Test of Time?
+Neural network models are becoming increasingly more powerful, but also takes longer
+and more computing resources to train. We aim to reduce the training time by using Histogram
+of Oriented Gradients (HOG) to preprocess images before training. Our experiments with
+pedestrian detection task show a 125x speed up in training time without sacrificing much accuracy. 
+
+[./assets/HoG_Presentation.pdf Presentation] \/
+[./assets/HOG_Project.pdf Paper] \/
+[https://github.com/mhtang2/HOGPedestrianDetection/ Code]
+~~~
+
+~~~
 {}{video_left}{./images/HRI.mp4}{}{280px}{}{}
 == Hand Gesture Robot Control 
 === Asher Mai, Joshua Cox, Ian Xu
