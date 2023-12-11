@@ -10,7 +10,7 @@ projects, hackathons, personal projects and undergrad research.
 == Classical Method on New Datasets: Pedestrian Detection with HOG and CNN
 === Asher Mai, Matthew Tang, Sid Ahuja
 ==== CS 598 LAZ: Computer Vision: What Will Stand the Test of Time?
-Neural network models are becoming increasingly more powerful, but also takes longer
+Neural network models are becoming increasingly more powerful, but also taking longer
 and more computing resources to train. We aim to reduce the training time by using Histogram
 of Oriented Gradients (HOG) to preprocess images before training. Our experiments with
 pedestrian detection task show a 125x speed up in training time without sacrificing much accuracy. 
