@@ -20,7 +20,7 @@ as well as turning on and off the vacuum gripper depending on the various gestur
 ~~~
 
 ~~~
-{}{img_left}{./images/crowd_nav.gif}{}{280px}{}{}{}
+{}{video_left}{./images/crowd_nav.mp4}{}{280px}{}{}{}
 == Crowd Navigation with Occlusion-Aware Inference Using People as Sensors
 === Asher Mai, [https://yejimun.github.io Ye-Ji Mun], Prof Katie Driggs-Campbell
 ==== Undergrad Research
@@ -37,7 +37,7 @@ This project is an extension to this [https://arxiv.org/abs/2210.00552 paper].
 ~~~
 
 ~~~
-{}{img_left}{./images/rivian.gif}{}{280px}{}{}{rivian}
+{}{video_left}{./images/rivian.mp4}{}{280px}{}{}{rivian}
 == Rivian Adventure Retro Game
 === Asher Mai, Advaith Bala, David Chen
 ==== [https://github.com/uirphack/2023 2023 UIUC Research Park Hackathon]\n
