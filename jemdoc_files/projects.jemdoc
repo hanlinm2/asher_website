@@ -16,7 +16,7 @@ of Oriented Gradients (HOG) to preprocess images before training. Our experiment
 pedestrian detection task show a 125x speed up in training time without sacrificing much accuracy. 
 
 [./assets/HoG_Presentation.pdf Presentation] \/
-[./assets/HOG_Project.pdf Paper] \/
+[./assets/HOG_Project.pdf Final Report] \/
 [https://github.com/mhtang2/HOGPedestrianDetection/ Code]
 ~~~
 
