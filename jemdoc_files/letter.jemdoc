@@ -14,7 +14,7 @@ Dear Susie,
 Call me old fashioned, but I'm writing you a letter. Just kidding, I am making you a website.
 I bet you've never seen a love website before. Hehe, this is what you get for dating a nerd.
 
-I remember the first time I met you. You kept reminding me how I was late. Hmph. I was only 5 mins late 
+I remember the first time I met you. You keep reminding me how I was late. Hmph. I was only 5 mins late 
 all because I was getting ready and trying to look (and smell) my best for our first time meeting. 
 I enjoyed talking to you and getting to know you as a person. It didn't take me very long to realize that 
 I wanted you to be my date to the semi-formal. I was already picturing how cute we would look together in 
@@ -35,9 +35,10 @@ to skills to make you something like that.
 {}{img_left}{./images/semi_formal.jpg}{}{280px}{}{}{}
 == ACM Semi-Formal
 === Feb 19th, 2023
-And we did look cute together. We went to a nice dinner beforehand, and someone walking by commented on how 
+And we did look cute together! We went to a nice dinner beforehand, and someone walking by commented on how 
 cute you look in your dress. I introduced you to my friends at the pre-game party. I guess this is the beginning
-of me subconsciously treating you like a girlfriend. I remember we kept eating all the deserts cuz it's free food.
+of me subconsciously treating you like a girlfriend. At the semi-formal, we got a drink and joined everyone dancing. 
+We also kept eating all the deserts cuz it's free food.
 ~~~
 
 ~~~
@@ -45,7 +46,7 @@ of me subconsciously treating you like a girlfriend. I remember we kept eating a
 == Unofficial Party (One of the Three)
 === March 4th, 2023
 I took you three different parties that day and you met more of my friends. I was starting to get a lot more 
-comfortable with you. I enjoyed your company and I love having you next to me as my date all the time. I know we
+comfortable with you. I enjoyed your company and I loved having you next to me as my date all the time. I know we
 weren't dating, but I guess I subconsciously wanted you to be my girlfriend. I started kissing your cheek and holding 
 your hands a lot more. I had no idea you were starting to have feelings for me too, until I got your love letter the
 next day.
@@ -67,11 +68,11 @@ trying to figure out what gifts I should get you from New York. You were the onl
 {}{img_left}{./images/semi_formal2.jpeg}{}{150px}{}{}{}
 == (Another) Semi-Formal
 === April 1st, 2023
-This is the day it happened! After you spending all day with me at the Engineering Open House, we went to Naya that just opened. 
+This is the day it happened! After you spending all day with me at the Engineering Open House, we went to Naya that just reopened. 
 You looked so pretty in your dress sitting across from me. I felt like the luckiest man. At the semi-formal, someone asked if you
 were my girlfriend, and I answered "Almost", and you were confused. I was wondering when to ask the question all night. 
 As the night came to an end, we walked out of the loud music and 
-into the quiet streets. You were in disbelieve when I asked the question,
+into the quiet streets. You were surprised when I asked the question,
 but when you realized it wasn't an April Fool's joke, you said yes! Now you finally understand why I said "Almost".
 ~~~
 
@@ -80,8 +81,8 @@ but when you realized it wasn't an April Fool's joke, you said yes! Now you fina
 == ECE Awards Ceremony
 === April 20th, 2023
 I started taking you to more and more events and places. We went to the Japan House, the barn dance, Matsuri Festival,
-the ECE Awards Ceremony... It feels special this time because you are actually my girlfriend. I can tell everyone that
-you are my girlfriend.
+the ECE Awards Ceremony... It feels special this time because you are actually my girlfriend. I can let the whole world know that
+you are my girlfriend!
 ~~~
 
 ~~~
@@ -91,6 +92,8 @@ So I'm just gonna do a photo collage at the end. I love experiencing all the fun
 together. And there's a lot more memories to be made with you! 
 
 Happy Valentine's Day!
+
+我爱你！
 
 Love ❤️,\n
 Asher
@@ -276,6 +279,6 @@ Asher
     }
 </style>
 <script>
-    document.title = "Asher's Awards"
+    document.title = "Letter"
 </script>
 ~~~
