@@ -11,15 +11,114 @@
 {}{img_left}{}{}{}{}{}{}
 Dear Susie,
 
-Call me old fashioned, but I'm writing you a letter. 
+Call me old fashioned, but I'm writing you a letter. Just kidding, I am making you a website.
+I bet you've never seen a love website before. Hehe, this is what you get for dating a nerd.
+
+I remember the first time I met you. You kept reminding me how I was late. Hmph. I was only 5 mins late 
+all because I was getting ready and trying to look (and smell) my best for our first time meeting. 
+I enjoyed talking to you and getting to know you as a person. It didn't take me very long to realize that 
+I wanted you to be my date to the semi-formal. I was already picturing how cute we would look together in 
+the photos. 
 ~~~
 
 ~~~
-{}{img_left}{./images/donald.jpeg}{}{280px}{}{}{}
-== Donald L. Bitzer and H. Gene Slottow Creativity Award
-=== Asher Mai, Pauline Lu
-[https://ece.illinois.edu/academics/ugrad/scholarships-and-awards/awards/bit Award Page]
+{}{img_left}{./images/valentine.jpeg}{}{150px}{}{}{}
+== Valentine's Day Dinner at Tanaka Ramen
+=== Feb 14th, 2023
+But before the semi-formal, it's Valentine's Day! I loved how romantic it was to have dinner with you. It 
+felt like we were actually dating. I loved watching you smile from across the table. You also made me a cute 
+cupcake and you wrote a note that said "You're sweet, just like this treat!" That was so sweet. I wish I had
+to skills to make you something like that.
 ~~~
+
+~~~
+{}{img_left}{./images/semi_formal.jpg}{}{280px}{}{}{}
+== ACM Semi-Formal
+=== Feb 19th, 2023
+And we did look cute together. We went to a nice dinner beforehand, and someone walking by commented on how 
+cute you look in your dress. I introduced you to my friends at the pre-game party. I guess this is the beginning
+of me subconsciously treating you like a girlfriend. I remember we kept eating all the deserts cuz it's free food.
+~~~
+
+~~~
+{}{img_left}{./images/unofficial.jpeg}{}{150px}{}{}{}
+== Unofficial Party (One of the Three)
+=== March 4th, 2023
+I took you three different parties that day and you met more of my friends. I was starting to get a lot more 
+comfortable with you. I enjoyed your company and I love having you next to me as my date all the time. I know we
+weren't dating, but I guess I subconsciously wanted you to be my girlfriend. I started kissing your cheek and holding 
+your hands a lot more. I had no idea you were starting to have feelings for me too, until I got your love letter the
+next day.
+~~~
+
+~~~
+{}{img_left}{./images/letter.jpeg}{}{150px}{}{}{}
+It took me a while to actually open the letter you wrote me. Your words moved me so much. I didn't know you enjoyed my
+company as much as I did with you. You made me realize how much I love spending time with you. It made me sad to read 
+that you might be sad if I don't end up choosing you. I really wanted to say yes, but I don't know what I wanted at the time.
+I have to make sure that I am emotionally ready before I start dating anyone. I also don't know what life is like after graduation, 
+and I still needed to figure that out. Sorry I took so long to respond to your letter. 
+
+And then I went on the New York Trip, which gave me more time to think things through. The whole time I was thinking about you and 
+trying to figure out what gifts I should get you from New York. You were the only person on my mind that entire trip. 
+~~~
+
+~~~
+{}{img_left}{./images/semi_formal2.jpeg}{}{150px}{}{}{}
+== (Another) Semi-Formal
+=== April 1st, 2023
+This is the day it happened! After you spending all day with me at the Engineering Open House, we went to Naya that just opened. 
+You looked so pretty in your dress sitting across from me. I felt like the luckiest man. At the semi-formal, someone asked if you
+were my girlfriend, and I answered "Almost", and you were confused. I was wondering when to ask the question all night. 
+As the night came to an end, we walked out of the loud music and 
+into the quiet streets. You were in disbelieve when I asked the question,
+but when you realized it wasn't an April Fool's joke, you said yes! Now you finally understand why I said "Almost".
+~~~
+
+~~~
+{}{img_left}{./images/ece_awards_susie.jpeg}{}{280px}{}{}{}
+== ECE Awards Ceremony
+=== April 20th, 2023
+I started taking you to more and more events and places. We went to the Japan House, the barn dance, Matsuri Festival,
+the ECE Awards Ceremony... It feels special this time because you are actually my girlfriend. I can tell everyone that
+you are my girlfriend. There are so many more memories I want to include in this letter, but it's getting pretty long. 
+So I'm just gonna do a photo collage at the end. I love experiencing all the fun things and fun places and making memories 
+together. And there's a lot more memories to be made with you! 
+
+Happy Valentine's Day!
+
+Love ❤️,\n
+Asher
+~~~
+
+{{
+<div class="row">
+  <div class="column">
+    <img src="./images/collage1.jpeg" style="width:100%">
+    <img src="./images/collage2.jpeg" style="width:100%">
+    <img src="./images/collage3.jpeg" style="width:100%">
+    <img src="./images/collage14.jpeg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="./images/collage4.jpeg" style="width:100%">
+    <img src="./images/collage5.jpeg" style="width:100%">
+    <img src="./images/collage6.jpeg" style="width:100%">
+    <img src="./images/collage7.jpeg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="./images/collage8.jpeg" style="width:100%">
+    <img src="./images/collage9.jpeg" style="width:100%">
+    <img src="./images/collage10.jpeg" style="width:100%">
+    <img src="./images/collage15.jpeg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="./images/collage11.jpeg" style="width:100%">
+    <img src="./images/collage12.jpeg" style="width:100%">
+    <img src="./images/collage13.jpeg" style="width:100%">
+    <img src="./images/collage16.jpeg" style="width:100%">
+  </div>
+</div>
+}}
 
 ~~~
 {}{raw}
@@ -123,7 +222,7 @@ Call me old fashioned, but I'm writing you a letter.
         background-color: rgb(233, 232, 232);
         margin: auto;
         margin-bottom: 50px;
-        box-shadow: 20px 20px 20px black;
+        box-shadow: 20px 20px 30px black;
     }
     .envelope-cover{
         border-left: 150px solid transparent;
