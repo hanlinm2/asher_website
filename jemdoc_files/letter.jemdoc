@@ -1,0 +1,177 @@
+# jemdoc: nomenu, addcss{nomenu.css}
+~~~
+{}{raw}
+<div class="envelope">
+    <div class="envelope-cover"></div>
+    <div class="heart"></div>
+</div>
+~~~
+
+~~~
+{}{img_left}{}{}{}{}{}{}
+Dear Susie,
+
+Call me old fashioned, but I'm writing you a letter. 
+~~~
+
+~~~
+{}{img_left}{./images/donald.jpeg}{}{280px}{}{}{}
+== Donald L. Bitzer and H. Gene Slottow Creativity Award
+=== Asher Mai, Pauline Lu
+[https://ece.illinois.edu/academics/ugrad/scholarships-and-awards/awards/bit Award Page]
+~~~
+
+~~~
+{}{raw}
+<div class="bg-image" style="display:block;"></div>
+<style>
+    .bg-image{
+        background-attachment: fixed;
+        background-size: 100%;
+        width: 100%;
+        height: 100%;
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: #fff url("./images/loveletter3.jpg") center no-repeat;
+        background-size: cover;
+        background-position: top center;
+        z-index: 0;
+    }
+    
+    div#subtitle, div#footer-text, div#layout-content > h2, h1{
+        background-color: #FFFFFF;
+        border-radius: 20px;
+        padding:10px;
+        box-shadow: 0px 0px 15px gray;
+        box-sizing: border-box;
+        border-radius: 20px;
+        box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .6); 
+        position: relative;
+        z-index: 1;
+        background: inherit;
+        overflow: hidden;
+    }
+
+    div#subtitle:before, div#footer-text:before, div#layout-content > h2:before, h1:before {
+        content: "";
+        position: absolute;
+        background: inherit;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+        backdrop-filter: blur(10px) !important;
+        -webkit-backdrop-filter: blur(10px) !important;
+        margin: -20px;
+    }
+
+    div#layout-content > h2, h1 {
+        display:inline-block;
+    }
+
+    .heart {
+        background-color: #a93c3d;
+        display: inline-block;
+        height: 50px;
+        position: relative;
+        margin-left: -10px;
+        margin-top: -15px;
+        transform: rotate(-45deg);
+        left: 45%; 
+        width: 50px;
+    }
+
+    .heart:before, .heart:after {
+        content: "";
+        background-color: #a93c3d;
+        border-radius: 50%;
+        height: 50px;
+        position: absolute;
+        width: 50px;
+    }
+
+    .heart:before {
+        top: -25px;
+        left: 0;
+    }
+
+    .heart:after {
+        left: 25px;
+        top: 0;
+    }
+
+    @keyframes heartbeat {
+        0% {
+            transform: scale(1) rotate(-45deg);
+        }
+        50% {
+            transform: scale(0.6) rotate(-45deg);
+        }
+    }
+
+    .heart {
+        animation: heartbeat 1s infinite;
+    }
+
+    .envelope{
+        height: 200px;
+        width: 300px;
+        background-color: rgb(233, 232, 232);
+        margin: auto;
+        margin-bottom: 50px;
+        box-shadow: 20px 20px 20px black;
+    }
+    .envelope-cover{
+        border-left: 150px solid transparent;
+        border-right: 150px solid transparent;
+        border-top: 100px solid rgb(211, 210, 210);
+        width: 0;
+    }
+
+</style>
+<style>
+    div#layout-content-container {
+        background-color: #F5F5F7 !important ;
+    }
+
+    div#text-img-container {
+        background-color: #FFFFFF;
+        border-radius: 20px;
+        padding:20px;
+        box-shadow: 0px 0px 15px gray;
+        box-sizing: border-box;
+        border-radius: 20px;
+        box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .6); 
+        position: relative;
+        z-index: 1;
+        background: inherit;
+        overflow: hidden;
+    }
+    div#text-img-container:before {
+        content: "";
+        position: absolute;
+        background: inherit;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+        backdrop-filter: blur(15px) !important;
+        -webkit-backdrop-filter: blur(15px) !important;
+        margin: -20px;
+    }
+
+    div#layout-content :not(.bg-image) {
+        z-index: 1;
+        position: relative;
+    }
+</style>
+<script>
+    document.title = "Asher's Awards"
+</script>
+~~~
