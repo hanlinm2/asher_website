@@ -8,7 +8,7 @@
 {}{img_left}{./images/shadows.png}{}{280px}{}{}
 == /Shadows Don’t Lie and Lines Can’t Bend!/ \n Generative Models don’t know Projective Geometry...for now
 === [https://www.linkedin.com/in/ayush-sarkar Ayush Sarkar]\*,  *Hanlin Mai*\*, Amitabh Mahapatra\*,  [https://slazebni.cs.illinois.edu/ Svetlana Lazebnik],  [http://luthuli.cs.uiuc.edu/~daf/ David A. Forsyth], and [https://anandbhattad.github.io/ Anand Bhattad]
-==== arXiv, 2023
+==== CVPR 2024
 * equal contribution
 
 Using only derived geometric properties, we can distinguish generated images from real ones without using image pixels.
