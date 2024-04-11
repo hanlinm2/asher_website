@@ -1,0 +1,48 @@
+# jemdoc: menu{MENU}{profile.html}
+{{
+<div class="row">
+  <div class="column">
+    <img src="./images/collage1.jpeg" style="width:100%">
+    <img src="./images/collage2.jpeg" style="width:100%">
+    <img src="./images/collage3.jpeg" style="width:100%">
+    <img src="./images/collage14.jpeg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="./images/collage4.jpeg" style="width:100%">
+    <img src="./images/collage5.jpeg" style="width:100%">
+    <img src="./images/collage6.jpeg" style="width:100%">
+    <img src="./images/collage7.jpeg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="./images/collage8.jpeg" style="width:100%">
+    <img src="./images/collage9.jpeg" style="width:100%">
+    <img src="./images/collage10.jpeg" style="width:100%">
+    <img src="./images/collage15.jpeg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="./images/collage11.jpeg" style="width:100%">
+    <img src="./images/collage12.jpeg" style="width:100%">
+    <img src="./images/collage13.jpeg" style="width:100%">
+    <img src="./images/collage16.jpeg" style="width:100%">
+  </div>
+</div>
+}}
+
+~~~
+{}{raw}
+<style>
+    div#layout-content-container:has(p) {
+        background-color: #F5F5F7 !important ;
+    }
+
+    div#text-img-container:has(p) {
+        background-color: #FFFFFF;
+        border-radius: 20px;
+        padding:20px;
+        box-shadow: 0px 0px 15px gray;
+    }
+</style>
+<script>
+  document.title = "Asher Mai's Girlfriend"
+</script>
+~~~
