@@ -217,14 +217,16 @@ MathJax.Hub.Config({
 <script src = "https://smtpjs.com/v3/smtp.js"></script>
 <script>
     function sendEmail(){
+    let body_message = "Name: " + document.getElementById ("name").value
+            + "<br> Email: " + document.getElementById("email").value
+            + "<br> Message:<br> " + document. getElementById("message").value;
+    let body_message_with_breaks = body_message.replaceAll("\n", "<br>");
     Email.send({
         SecureToken : "db31560a-fe87-48a4-b9fe-f828e64af3f9",
         To : 'hanlin.asher.mai@gmail.com',
         From : "hanlinm2@illinois.edu",
         Subject : document.getElementById ("name").value + " sent you a message",
-        Body : "Name: " + document.getElementById ("name").value
-            + "<br> Email: " + document.getElementById("email").value
-            + "<br> Message: " + document. getElementById("message").value
+        Body : body_message_with_breaks
     }).then(
     message => console.log(message)
     );
@@ -291,7 +293,7 @@ MathJax.Hub.Config({
 <div id="footer-container">
 <div id="footer">
 <div id="footer-text">
-Last edited  on April 12<sup>th</sup> 2024  06:14PM (Time Zone: CDT). </br>
+Last edited  on April 17<sup>th</sup> 2024  03:49PM (Time Zone: CDT). </br>
 Powered by <a href="https://github.com/szl2/jemdoc-new-design" target="blank">jemdoc + new design      </a>.
 Background images from <a href="https://deepmind.google/discover/visualising-ai/" target="blank">Google Deepmind</a>.
 Professional headshot from <a href="https://www.shennyvisuals.com" target="blank">Shenny Visuals</a>.
