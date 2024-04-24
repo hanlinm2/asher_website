@@ -143,7 +143,7 @@ A Few Good Men, The Crucible, Shrek the Musical, and Drowsy Chaperone. </p>
 <div id="footer-container">
 <div id="footer">
 <div id="footer-text">
-Last edited  on April 19<sup>th</sup> 2024  10:04PM (Time Zone: CDT). </br>
+Last edited  on April 23<sup>rd</sup> 2024  10:17PM (Time Zone: CDT). </br>
 Powered by <a href="https://github.com/szl2/jemdoc-new-design" target="blank">jemdoc + new design      </a>.
 Background images from <a href="https://deepmind.google/discover/visualising-ai/" target="blank">Google Deepmind</a>.
 Professional headshot from <a href="https://www.shennyvisuals.com" target="blank">Shenny Visuals</a>.
@@ -177,6 +177,11 @@ function closeNav() {
         //     500
         // );
     }
+}
+document.getElementById('layout-content-container').onclick = function(e) {
+  if(e.target != document.getElementById('layout-menu')) {
+      closeNav();
+  }
 }
 </script>
 <!-- Google tag (gtag.js) -->
