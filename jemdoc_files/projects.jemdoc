@@ -3,6 +3,22 @@
 This page contains all my non-publication projects, including course 
 projects, hackathons, personal projects and undergrad research.
 
+== 2024
+
+~~~
+{}{img_left}{./images/cs544.png}{}{280px}{}{}
+== Robustness of Single Pass Deterministic Uncertainty Estimation Methods
+=== Anirudh Choudhary, Asher Mai, Rasmus Larsen, Ayush Sarkar
+==== CS 544: Optimization Methods in Vision and Learning
+Our work analyzes the robustness of uncertainty estimation by Dirichlet networks and Feature
+space distance aware methods and their generalization performance in two common settings (image
+corruption and domain-shift). Our results show that Dirichlet networks achieve better ID and OOD
+accuracy on natural images but underperform on clinical images in domain-shift setting.
+
+[./assets/MP5_CS544_Optimization_Computer_Vision.pdf Final Report]
+~~~
+
+
 == 2023
 
 ~~~
