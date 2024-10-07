@@ -6,6 +6,22 @@ projects, hackathons, personal projects and undergrad research.
 == 2024
 
 ~~~
+{}{img_left}{./images/neural_inverse_rendering.jpeg}{}{280px}{}{}
+== Inverse Rendering: A Survey
+=== Steven Gao, Asher Mai
+==== CS 598: 3D Vision
+Inverse Rendering, sometimes also referred to as intrinsic
+image decomposition, aims to estimate the physical properties
+of a scene that is used to render a given image.
+In this survey, we dive into their variety of techniques and capabilities. 
+Additionally, we evaluate current methods, trends and explore
+future research ideas.
+
+[./assets/neural_inverse_rendering.pdf Survey Paper]
+~~~
+
+
+~~~
 {}{img_left}{./images/cs544.png}{}{280px}{}{}
 == Robustness of Single Pass Deterministic Uncertainty Estimation Methods
 === Anirudh Choudhary, Asher Mai, Rasmus Larsen, Ayush Sarkar
