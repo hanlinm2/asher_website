@@ -6,6 +6,24 @@ projects, hackathons, personal projects and undergrad research.
 == 2024
 
 ~~~
+{}{img_left}{./images/Depth_completion_inference.jpg}{}{280px}{}{}
+== Enhancing Stereo Depth Maps through RGBD-Conditioned Generative Models
+=== Jose Cuaran, Asher Mai, Kulbir Ahluwalia, Junzhe Wu
+==== CS 598: 3D Vision
+
+Monocular depth estimation is a challenging task due to the lack of
+geometrically accurate depth measurements and scale consistency.
+Our work proposes a novel generative depth completion
+method. We mitigate the drawbacks of monocular depth estimation 
+while preserving important geometric clues by conditioning a 
+diffusion-based generative model on the noisy but actual sensor depth maps.
+
+[./assets/CS598_Final_Report.pdf Final Report] \/
+[./assets/3D_vision_poster.pdf Poster] \/
+[https://github.com/kulbir-ahluwalia/CS598SHW_Depth_Completion Code]
+~~~
+
+~~~
 {}{img_left}{./images/neural_inverse_rendering.jpeg}{}{280px}{}{}
 == Inverse Rendering: A Survey
 === Steven Gao, Asher Mai
