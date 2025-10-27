@@ -9,7 +9,7 @@
 = Hanlin "Asher" Mai \n
 === University of Illinois Urbana-Champaign \n 
 === [https://ece.illinois.edu Electrical & Computer Engineering] \n
-I am a M.S / Ph.D. student in ECE at UIUC expecting to graduate May 2028, where I am advised by 
+I am a M.S. student in ECE at UIUC expecting to graduate Dec 2025, where I am advised by 
 [https://slazebni.cs.illinois.edu Prof. Svetlana Lazebnik]. 
 Before this, I received my B.S. in Computer Engineering with Highest Honors at UIUC in May 2023. 
 During my undergrad, I worked as a Machine Learning Intern at [https://rivian.com Rivian].
@@ -39,15 +39,15 @@ During my undergrad, I worked as a Machine Learning Intern at [https://rivian.co
 [https://www.instagram.com/p/B3tFdG5ppTE/ various] 
 [https://www.instagram.com/p/CUvjjJ0JT64/ events]. 
 
-== Research statement
-My research focuses on Computer Vision and Machine Learning. I am focusing on learning what makes AI generated images 
-look different from real images and how to bridge the gaps between them. I am also interested in
-how CV and ML can be used to improve our lives in areas such as productivity and accessibility.
-I want to investigate potential solutions to some of the ethical problems in AI and how to make AI
-better at problem solving without sacrificing morality.
+# == Research statement
+# My research focuses on Computer Vision and Machine Learning. I am focusing on learning what makes AI generated images 
+# look different from real images and how to bridge the gaps between them. I am also interested in
+# how CV and ML can be used to improve our lives in areas such as productivity and accessibility.
+# I want to investigate potential solutions to some of the ethical problems in AI and how to make AI
+# better at problem solving without sacrificing morality.
 
 == Teaching
-- Teaching Assistant for [https://ece.illinois.edu/academics/courses/ece220 ECE 220: Computer Systems & Programming] (Current)
+- Teaching Assistant for [https://ece.illinois.edu/academics/courses/ece220 ECE 220: Computer Systems & Programming]
 - Course Assistant for [https://ece.illinois.edu/academics/courses/ece391 ECE 391: Computer Systems Engineering]
 - Grader for [https://ece.illinois.edu/academics/courses/ece120 ECE 120: Introduction to Computing]
 
@@ -55,6 +55,9 @@ better at problem solving without sacrificing morality.
 == News
 ~~~
 {}{table}{news_table}
+06\/2025  | Married the love of my life: Suteetida Mai ||
+05\/2025  | Started Internship at Waymo on Machine Learning Infrastructure Team ||
+02\/2025  | Co-Chaired Machine Learning and Signal Processing Session of [https://csl.illinois.edu/news-and-media/csl-student-conference-2025-advancing-research-across-disciplines CSL Student Conference] with [https://ematth.dev Evan Matthews] ||
 05\/2024  | Returned to [https://rivian.com Rivian] as Machine Learning Engineering Intern for summer 2024 ||
 02\/2024  | One paper accepted at [https://cvpr.thecvf.com/virtual/2024/poster/31180 CVPR 2024], analyzing projective geometry in generative models.||
 02\/2024  | Presented paper at [https://publish.illinois.edu/csl-student-conference-2024/machine-learning-and-signal-processing/ CSL Student Conference] ||
